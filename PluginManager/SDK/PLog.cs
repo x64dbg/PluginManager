@@ -22,7 +22,7 @@ namespace PluginManager.SDK
 
     public class TextWriterPlugin : TextWriter
     {
-        public override Encoding Encoding => Encoding.UTF8;
+        public override Encoding Encoding { get { return Encoding.UTF8; } }
 
         public override void Write(string value)
         {
