@@ -60,7 +60,7 @@ namespace PluginManagerGUI
 
         private void buttonUpdate_Click(object sender, EventArgs e)
         {
-            var rootJsonUrl = @"file://c:\CodeBlocks\plugins\root.json";
+            var rootJsonUrl = "https://github.com/x64dbg/PluginManager/raw/master/plugins/root.json";
             var rootJson = Utils.DownloadString(rootJsonUrl);
 
             /*var rootTest = new PluginRoot
@@ -155,7 +155,6 @@ namespace PluginManagerGUI
             if (listBoxPlugins.SelectedIndex < 0)
                 return;
             var pluginMeta = _root.Plugins[listBoxPlugins.SelectedIndex];
-            MessageBox.Show(pluginMeta.ToString());
             var plugin = DownloadContainer(pluginMeta.Container);
             if (plugin.Meta.Author != pluginMeta.Author || plugin.Meta.Name != pluginMeta.Name)
                 throw new InvalidDataException();
