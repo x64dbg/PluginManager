@@ -1,9 +1,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.8
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluginManager", "PluginManager\PluginManager.csproj", "{F2F8BA6A-0112-47CA-9AFA-E8082263AB72}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluginManagerGUI", "PluginManagerGUI\PluginManagerGUI.csproj", "{FFDAE343-4AD7-489F-A15C-ACFDAE1E6F48}"
 EndProject
 Global
@@ -18,20 +16,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F2F8BA6A-0112-47CA-9AFA-E8082263AB72}.Debug|Any CPU.ActiveCfg = Debug|x86
-		{F2F8BA6A-0112-47CA-9AFA-E8082263AB72}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
-		{F2F8BA6A-0112-47CA-9AFA-E8082263AB72}.Debug|Mixed Platforms.Build.0 = Debug|x86
-		{F2F8BA6A-0112-47CA-9AFA-E8082263AB72}.Debug|x64.ActiveCfg = Debug|x64
-		{F2F8BA6A-0112-47CA-9AFA-E8082263AB72}.Debug|x64.Build.0 = Debug|x64
-		{F2F8BA6A-0112-47CA-9AFA-E8082263AB72}.Debug|x86.ActiveCfg = Debug|x86
-		{F2F8BA6A-0112-47CA-9AFA-E8082263AB72}.Debug|x86.Build.0 = Debug|x86
-		{F2F8BA6A-0112-47CA-9AFA-E8082263AB72}.Release|Any CPU.ActiveCfg = Release|x86
-		{F2F8BA6A-0112-47CA-9AFA-E8082263AB72}.Release|Mixed Platforms.ActiveCfg = Release|x86
-		{F2F8BA6A-0112-47CA-9AFA-E8082263AB72}.Release|Mixed Platforms.Build.0 = Release|x86
-		{F2F8BA6A-0112-47CA-9AFA-E8082263AB72}.Release|x64.ActiveCfg = Release|x64
-		{F2F8BA6A-0112-47CA-9AFA-E8082263AB72}.Release|x64.Build.0 = Release|x64
-		{F2F8BA6A-0112-47CA-9AFA-E8082263AB72}.Release|x86.ActiveCfg = Release|x86
-		{F2F8BA6A-0112-47CA-9AFA-E8082263AB72}.Release|x86.Build.0 = Release|x86
 		{FFDAE343-4AD7-489F-A15C-ACFDAE1E6F48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{FFDAE343-4AD7-489F-A15C-ACFDAE1E6F48}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FFDAE343-4AD7-489F-A15C-ACFDAE1E6F48}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
@@ -47,5 +31,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7474F339-4E15-4E1D-B925-E10C0EAB7C9B}
 	EndGlobalSection
 EndGlobal
