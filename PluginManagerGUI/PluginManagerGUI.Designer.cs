@@ -33,6 +33,7 @@
             this.listBoxPlugins = new System.Windows.Forms.ListBox();
             this.webBrowserDescription = new System.Windows.Forms.WebBrowser();
             this.buttonInstall = new System.Windows.Forms.Button();
+            this.linkLabelIcon = new System.Windows.Forms.LinkLabel();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -97,11 +98,23 @@
             this.buttonInstall.UseVisualStyleBackColor = true;
             this.buttonInstall.Click += new System.EventHandler(this.buttonInstall_Click);
             // 
+            // linkLabelIcon
+            // 
+            this.linkLabelIcon.AutoSize = true;
+            this.linkLabelIcon.Location = new System.Drawing.Point(664, 409);
+            this.linkLabelIcon.Name = "linkLabelIcon";
+            this.linkLabelIcon.Size = new System.Drawing.Size(77, 13);
+            this.linkLabelIcon.TabIndex = 5;
+            this.linkLabelIcon.TabStop = true;
+            this.linkLabelIcon.Text = "Icon by Icons8";
+            this.linkLabelIcon.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabelIcon_LinkClicked);
+            // 
             // PluginManagerGUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(753, 434);
+            this.Controls.Add(this.linkLabelIcon);
             this.Controls.Add(this.buttonInstall);
             this.Controls.Add(this.splitContainer1);
             this.Controls.Add(this.buttonUpdate);
@@ -112,6 +125,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
             this.splitContainer1.ResumeLayout(false);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -122,6 +136,7 @@
         private System.Windows.Forms.ListBox listBoxPlugins;
         private System.Windows.Forms.WebBrowser webBrowserDescription;
         private System.Windows.Forms.Button buttonInstall;
+        private System.Windows.Forms.LinkLabel linkLabelIcon;
     }
 }
 

@@ -46,6 +46,7 @@ namespace PluginManagerGUI
         {
             InitializeComponent();
             listBoxPlugins.SelectedIndexChanged += listBoxPlugins_SelectedIndexChanged;
+            Icon = Icon.ExtractAssociatedIcon(System.Reflection.Assembly.GetExecutingAssembly().Location);
         }
 
         void listBoxPlugins_SelectedIndexChanged(object sender, EventArgs e)
@@ -169,6 +170,11 @@ namespace PluginManagerGUI
             foreach (var delivery in version.Delivery64)
                 PerformInstall(delivery, dstDir);
             MessageBox.Show("Done!");
+        }
+
+        private void linkLabelIcon_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://icons8.com/icon/5578/Puzzle");
         }
     }
 }
