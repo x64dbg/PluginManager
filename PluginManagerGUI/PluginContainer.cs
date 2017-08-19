@@ -4,57 +4,60 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Runtime.Serialization;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Converters;
+using System.IO;
 
 namespace PluginManagerGUI
 {
     public class PluginContainer
     {
-        [DataMember(Name = "meta")]
+        [JsonProperty("meta")]
         public PluginMeta Meta;
 
-        [DataMember(Name = "versions")]
+        [JsonProperty("versions")]
         public PluginVersion[] Versions;
     }
 
     public class PluginMeta
     {
-        [DataMember(Name = "name", IsRequired = true)]
+        [JsonProperty("name", Required = Required.Always)]
         public string Name;
 
-        [DataMember(Name = "author", IsRequired = true)]
+        [JsonProperty("author", Required = Required.Always)]
         public string Author;
 
-        [DataMember(Name = "description")]
+        [JsonProperty("description")]
         public string Description;
     }
 
     public class PluginVersion
     {
-        [DataMember(Name = "version", IsRequired = true)]
+        [JsonProperty("version", Required = Required.Always)]
         public string Version;
 
-        [DataMember(Name = "x32")]
+        [JsonProperty("x32")]
         public PluginDelivery[] Delivery32;
 
-        [DataMember(Name = "x64")]
+        [JsonProperty("x64")]
         public PluginDelivery[] Delivery64;
     }
 
     public class PluginDelivery
     {
-        [DataMember(Name = "archive", IsRequired = true)]
+        [JsonProperty("archive", Required = Required.Always)]
         public bool IsArchive;
 
-        [DataMember(Name = "download", IsRequired = true)]
+        [JsonProperty("download", Required = Required.Always)]
         public string Download;
 
-        [DataMember(Name = "sha256")]
+        [JsonProperty("sha256")]
         public string Sha256;
 
-        [DataMember(Name = "install")]
+        [JsonProperty("install")]
         public PluginAction[] Install;
 
-        [DataMember(Name = "uninstall")]
+        [JsonProperty("uninstall")]
         public PluginAction[] Uninstall;
     }
 
@@ -62,6 +65,7 @@ namespace PluginManagerGUI
     {
         public enum Operation
         {
+            Invalid,
             Copy,
             CopyOverwrite,
             CopyRecursive,
@@ -70,13 +74,32 @@ namespace PluginManagerGUI
             Execute
         }
 
-        [DataMember(Name = "action")]
+        [JsonProperty("action")]
+        [JsonConverter(typeof(StringEnumConverter))]
         public Operation Op;
 
-        [DataMember(Name = "src")]
+        [JsonProperty("src")]
         public string Src;
 
-        [DataMember(Name = "dst")]
+        [JsonProperty("dst")]
         public string Dst;
+
+        public void Perform(string srcDir, string dstDir)
+        {
+            if (Src.Contains("..") || Dst.Contains(".."))
+                throw new InvalidOperationException();
+            var srcNorm = Src.Replace('/', '\\');
+            var dstNorm = Dst.Replace('/', '\\');
+            var srcFull = (srcDir + "\\" + srcNorm).Replace("\\\\", "\\");
+            var dstFull = (dstDir + "\\" + dstNorm).Replace("\\\\", "\\");
+            var dstFullDir = Path.GetDirectoryName(dstFull);
+            switch (Op)
+            {
+                case Operation.Copy:
+                    Directory.CreateDirectory(dstFullDir);
+                    File.Copy(srcFull, dstFull);
+                    break;
+            }
+        }
     }
 }

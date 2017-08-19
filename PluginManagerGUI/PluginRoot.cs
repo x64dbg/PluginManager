@@ -6,12 +6,13 @@ using System.IO;
 using System.Threading.Tasks;
 using System.Runtime.Serialization;
 using System.Security.Cryptography;
+using Newtonsoft.Json;
 
 namespace PluginManagerGUI
 {
     public abstract class Signable
     {
-        [DataMember(Name = "signature", EmitDefaultValue = false)]
+        [JsonProperty("signature", DefaultValueHandling = DefaultValueHandling.Ignore)]
         public string Signature;
 
         private string GetMessage()
@@ -41,37 +42,42 @@ namespace PluginManagerGUI
 
     public class PluginRoot : Signable
     {
-        [DataMember(Name = "plugins")]
+        [JsonProperty("plugins")]
         public PluginRootMeta[] Plugins;
 
-        [DataMember(Name = "authors")]
+        [JsonProperty("authors")]
         public PluginAuthor[] Authors;
     }
 
     public class PluginRootMeta
     {
-        [DataMember(Name = "name", IsRequired = true)]
+        [JsonProperty("name", Required = Required.Always)]
         public string Name;
 
-        [DataMember(Name = "author", EmitDefaultValue = false)]
+        [JsonProperty("author", DefaultValueHandling = DefaultValueHandling.Ignore)]
         public string Author;
 
-        [DataMember(Name = "container", IsRequired = true)]
+        [JsonProperty("container", Required = Required.Always)]
         public string Container;
 
-        [DataMember(Name = "trust-signatures", EmitDefaultValue = false)]
+        [JsonProperty("trust-signatures", DefaultValueHandling = DefaultValueHandling.Ignore)]
         public Dictionary<string, string> TrustSignatures; //version -> signature
+
+        public override string ToString()
+        {
+            return Name;
+        }
     }
 
     public class PluginAuthor
     {
-        [DataMember(Name = "name", IsRequired = true)]
+        [JsonProperty("name", Required = Required.Always)]
         public string Name;
 
-        [DataMember(Name = "pubkey", IsRequired = false, EmitDefaultValue = false)]
+        [JsonProperty("pubkey", DefaultValueHandling = DefaultValueHandling.Ignore)]
         public string Pubkey;
 
-        [DataMember(Name = "trust-signature", EmitDefaultValue = false)]
+        [JsonProperty("trust-signature", DefaultValueHandling = DefaultValueHandling.Ignore)]
         public string TrustSignature;
     }
 }

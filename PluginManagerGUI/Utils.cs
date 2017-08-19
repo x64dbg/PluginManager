@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.IO;
 using Newtonsoft.Json;
+using Newtonsoft.Json.Converters;
 using System.Security.Cryptography;
 using System.Runtime.Serialization;
 
@@ -15,10 +16,14 @@ namespace PluginManagerGUI
         public static string Serialize<T>(T data, bool indent = false)
         {
             return JsonConvert.SerializeObject(data, new JsonSerializerSettings
-                {
-                    Formatting = indent ? Formatting.Indented : Formatting.None,
-                    DefaultValueHandling = DefaultValueHandling.Ignore
-                });
+            {
+                Formatting = indent ? Formatting.Indented : Formatting.None
+            });
+        }
+
+        public static T Deserialize<T>(string json)
+        {
+            return JsonConvert.DeserializeObject<T>(json);
         }
 
         //Taken from: https://stackoverflow.com/q/8437288
@@ -70,22 +75,26 @@ namespace PluginManagerGUI
             return success;
         }
 
-        public static T Deserialize<T>(string json)
-        {
-            return JsonConvert.DeserializeObject<T>(json);
-        }
-
         public static byte[] DownloadBytes(string url)
         {
             if (url.StartsWith("file://"))
                 return File.ReadAllBytes(url.Substring(7).Replace('/', '\\'));
             else
-                throw new NotImplementedException();
+                return new System.Net.WebClient().DownloadData(url);
         }
 
         public static string DownloadString(string url)
         {
             return Encoding.UTF8.GetString(DownloadBytes(url));
+        }
+
+        public static string Sha256(byte[] buffer)
+        {
+            var crypt = new SHA256Managed();
+            var hash = String.Empty;
+            foreach (var b in crypt.ComputeHash(buffer))
+                hash += b.ToString("x2");
+            return hash;
         }
     }
 

@@ -1,0 +1,40 @@
+{
+    "meta": {
+        "name": "FloatConvert",
+        "author": "mrexodia",
+        "description": "Command to convert floating point values to hex and vice versa."
+    },
+    "versions": [
+        {
+            "version": "1.0",
+            "x32": [
+                {
+                    "archive": true,
+                    "download": "https://github.com/mrexodia/FloatConvert/releases/download/v1.0/FloatConvert_v1.0.zip",
+                    "sha256": "5c376c1fdcb680aa74bbffb26871ad8268da8c724d52e567d0a4b59d979f132a",
+                    "install": [
+                        {
+                            "action": "Copy",
+                            "src": "x32\\plugins\\FloatConvert.dp32",
+                            "dst": "plugins\\FloatConvert.dp32"
+                        }
+                    ]
+                }
+            ],
+            "x64": [
+                {
+                    "archive": true,
+                    "download": "https://github.com/mrexodia/FloatConvert/releases/download/v1.0/FloatConvert_v1.0.zip",
+                    "sha256": "5c376c1fdcb680aa74bbffb26871ad8268da8c724d52e567d0a4b59d979f132a",
+                    "install": [
+                        {
+                            "action": "Copy",
+                            "src": "x64\\plugins\\FloatConvert.dp64",
+                            "dst": "plugins\\FloatConvert.dp64"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
