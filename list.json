@@ -1,0 +1,61 @@
+{
+    "Date": "2019-12-29",
+    "Modules": [
+        {
+            "Author": "mrexodia",
+            "Bugreport": "https://github.com/x64dbg/x64dbg/issues",
+            "CompressedSize": 33060429,
+            "Date": "2019-12-29",
+            "Info": "An open-source x64/x32 debugger for windows.",
+            "Is32": true,
+            "Is64": true,
+            "Name": "x64core",
+            "SHA1": "eea8c77d9648c14740ea252e2fd6426f6438706c",
+            "Size": 81799412,
+            "Src": "https://github.com/x64dbg/PluginManager/releases/base/x64core_2019-11-26_13-35.x64dbg.zip",
+            "Version": "2019-11-26_13-35"
+        },
+        {
+            "Author": "Aguila & cypher",
+            "Bugreport": "https://github.com/x64dbg/ScyllaHide/issues",
+            "CompressedSize": 655580,
+            "Date": "2019-12-29",
+            "Info": "Open-source user-mode Anti-Anti-Debug plugin.",
+            "Is32": true,
+            "Is64": true,
+            "Name": "ScyllaHide",
+            "SHA1": "5fb5dea2ac0d54bdae39995c38c9cba4fa9dec4e",
+            "Size": 1404695,
+            "Src": "https://github.com/x64dbg/PluginManager/releases/base/ScyllaHide_2019-12-25_13-33-09.x64dbg.zip",
+            "Version": "2019-12-25_13-33-09"
+        },
+        {
+            "Author": "Nukem",
+            "Bugreport": "https://github.com/Nukem9/SwissArmyKnife/issues",
+            "CompressedSize": 695027,
+            "Date": "2019-12-29",
+            "Info": "Utility for linker map files, diff files, peid/ida signatures, and code signature generation.",
+            "Is32": true,
+            "Is64": true,
+            "Name": "SwissArmyKnife",
+            "SHA1": "4cfddac201d9e01cfdbe4ffc3d434250ea22eff6",
+            "Size": 1227541,
+            "Src": "https://github.com/x64dbg/PluginManager/releases/base/SwissArmyKnife_12-8-2019.x64dbg.zip",
+            "Version": "12-8-2019"
+        },
+        {
+            "Author": "Insid3Code",
+            "Bugreport": "https://github.com/Insid3CodeTeam/Highlightfish/issues",
+            "CompressedSize": 11307,
+            "Date": "2019-12-29",
+            "Info": "Plugin to customize x64dbg colors and Highlightings.",
+            "Is32": true,
+            "Is64": true,
+            "Name": "Highlightfish",
+            "SHA1": "0f3156b1e55c277e208750d4b3a13fafe6d44353",
+            "Size": 39132,
+            "Src": "https://github.com/x64dbg/PluginManager/releases/base/Highlightfish.x64dbg.zip",
+            "Version": ""
+        }
+    ]
+}
