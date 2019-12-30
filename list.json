@@ -12,7 +12,7 @@
             "Name": "x64core",
             "SHA1": "0f2c07e8a989eb62f062a62e2655c4215c499e67",
             "Size": 81799400,
-            "Src": "https://github.com/x64dbg/PluginManager/releases/base/x64core_2019-11-26.x64dbg.zip",
+            "Src": "https://github.com/x64dbg/PluginManager/releases/download/base/x64core_2019-11-26.x64dbg.zip",
             "Version": "2019-11-26"
         },
         {
@@ -26,7 +26,7 @@
             "Name": "ScyllaHide",
             "SHA1": "a9428e25d59d2cea147bcf87619c96af0fa3054b",
             "Size": 1404677,
-            "Src": "https://github.com/x64dbg/PluginManager/releases/base/ScyllaHide_2019-12-25.x64dbg.zip",
+            "Src": "https://github.com/x64dbg/PluginManager/releases/download/base/ScyllaHide_2019-12-25.x64dbg.zip",
             "Version": "2019-12-25"
         },
         {
@@ -40,7 +40,7 @@
             "Name": "SwissArmyKnife",
             "SHA1": "9d79ffbe7fe3feb5af0fca8912ca5bb4b793f4d0",
             "Size": 1227541,
-            "Src": "https://github.com/x64dbg/PluginManager/releases/base/SwissArmyKnife_12-8-2019.x64dbg.zip",
+            "Src": "https://github.com/x64dbg/PluginManager/releases/download/base/SwissArmyKnife_12-8-2019.x64dbg.zip",
             "Version": "12-8-2019"
         },
         {
@@ -54,7 +54,7 @@
             "Name": "Highlightfish",
             "SHA1": "5fb35fccac0d25fc4702c89273505bb4321c2e38",
             "Size": 39132,
-            "Src": "https://github.com/x64dbg/PluginManager/releases/base/Highlightfish.x64dbg.zip",
+            "Src": "https://github.com/x64dbg/PluginManager/releases/download/base/Highlightfish.x64dbg.zip",
             "Version": ""
         }
     ]
