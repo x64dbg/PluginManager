@@ -387,7 +387,7 @@
             "Info": "Linker/Compiler/Tool detector.",
             "Is32": true,
             "Is64": true,
-            "Name": "Today",
+            "Name": "nfdx64dbg",
             "SHA1": "4a4d47ebb2fe9406f4ddb9c9e9dd74f625764fa2",
             "Size": 2670221,
             "Src": "https://github.com/x64dbg/PluginManager/releases/download/base/nfdx64dbg_0.11.x64dbg.zip",
