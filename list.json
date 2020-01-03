@@ -160,7 +160,7 @@
             "Bugreport": "https://github.com/ThunderCls/xLCB/issues",
             "CompressedSize": 65388,
             "Date": "2020-01-03",
-            "Info": "lugin that mimics the function of the original LCB plugin for OllyDbg by scherzo.",
+            "Info": "Plugin that mimics the function of the original LCB plugin for OllyDbg by scherzo.",
             "Is32": true,
             "Is64": false,
             "Name": "xLCB",
