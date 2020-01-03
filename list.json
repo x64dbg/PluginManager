@@ -388,7 +388,7 @@
             "Is32": true,
             "Is64": true,
             "Name": "nfdx64dbg",
-            "SHA1": "4a4d47ebb2fe9406f4ddb9c9e9dd74f625764fa2",
+            "SHA1": "ec6b484ec54adace8a29280dfbc0b696745a5042",
             "Size": 2670221,
             "Src": "https://github.com/x64dbg/PluginManager/releases/download/base/nfdx64dbg_0.11.x64dbg.zip",
             "Version": "0.11"
