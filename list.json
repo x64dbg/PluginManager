@@ -504,6 +504,62 @@
             "Size": 2456369,
             "Src": "https://github.com/x64dbg/PluginManager/releases/download/base/AdvancedScript_4.3.x64dbg.zip",
             "Version": "4.3"
+        },
+        {
+            "Author": "Lasha Khasaia, @qaz_qaz",
+            "Bugreport": "https://github.com/secrary/idenLib/issues",
+            "CompressedSize": 815745,
+            "Date": "2020-01-04",
+            "Info": "Plugin to identify library functions",
+            "Is32": true,
+            "Is64": false,
+            "Name": "idenLib",
+            "SHA1": "864a6444af89b57586f76f6eff655800c5de5108",
+            "Size": 1925600,
+            "Src": "https://github.com/x64dbg/PluginManager/releases/download/base/idenLib_0.4.2.x64dbg.zip",
+            "Version": "0.4.2"
+        },
+        {
+            "Author": "hors",
+            "Bugreport": "https://github.com/horsicq/stringsx64dbg/issues",
+            "CompressedSize": 99691,
+            "Date": "2020-01-04",
+            "Info": "Strings plugin. ANSI and UNICODE. RegEXP support.",
+            "Is32": true,
+            "Is64": true,
+            "Name": "stringsx64dbg",
+            "SHA1": "7950132a28e8e95c2f2baf8d156a3706b3c9e705",
+            "Size": 264894,
+            "Src": "https://github.com/x64dbg/PluginManager/releases/download/base/stringsx64dbg_0.05.x64dbg.zip",
+            "Version": "0.05"
+        },
+        {
+            "Author": "hors",
+            "Bugreport": "https://github.com/horsicq/pex64dbg/issues",
+            "CompressedSize": 459775,
+            "Date": "2020-01-04",
+            "Info": "PE Viewer.",
+            "Is32": true,
+            "Is64": true,
+            "Name": "pex64dbg",
+            "SHA1": "7aaf3285f3c977c8a11a062c0c7bdf2fef28fd8b",
+            "Size": 1353870,
+            "Src": "https://github.com/x64dbg/PluginManager/releases/download/base/pex64dbg_0.04.x64dbg.zip",
+            "Version": "0.04"
+        },
+        {
+            "Author": "x64dbg",
+            "Bugreport": "https://github.com/x64dbg/snowman/issues",
+            "CompressedSize": 1533739,
+            "Date": "2020-01-04",
+            "Info": "Snowman decompiler plugin.",
+            "Is32": true,
+            "Is64": true,
+            "Name": "snowman",
+            "SHA1": "7b4b58e4373831b4a3440b6da6d8ff99917f79e8",
+            "Size": 4893847,
+            "Src": "https://github.com/x64dbg/PluginManager/releases/download/base/snowman_1.0.x64dbg.zip",
+            "Version": "1.0"
         }
     ]
 }
