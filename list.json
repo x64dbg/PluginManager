@@ -560,6 +560,20 @@
             "Size": 4893847,
             "Src": "https://github.com/x64dbg/PluginManager/releases/download/base/snowman_1.0.x64dbg.zip",
             "Version": "1.0"
+        },
+        {
+            "Author": "Xjun",
+            "Bugreport": "https://forum.tuts4you.com/topic/39806-sharpod-x64-a_antidebug-plugin-support-for-x64dbg",
+            "CompressedSize": 592501,
+            "Date": "2020-01-08",
+            "Info": "A_AntiDebug Plugin.",
+            "Is32": true,
+            "Is64": true,
+            "Name": "SharpOD",
+            "SHA1": "25d2509ed61809ca0272a1246eafba766d62f614",
+            "Size": 642766,
+            "Src": "https://github.com/x64dbg/PluginManager/releases/download/base/SharpOD_0.6b.x64dbg.zip",
+            "Version": "0.6b"
         }
     ]
 }
