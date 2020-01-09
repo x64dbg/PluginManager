@@ -326,13 +326,13 @@
         {
             "Author": "klks",
             "Bugreport": "https://github.com/klks/checksec/issues",
-            "CompressedSize": 104163,
-            "Date": "2020-01-04",
+            "CompressedSize": 116983,
+            "Date": "2020-01-09",
             "Info": "Plugin checks modules for security features enabled such as SafeSEH/GS/DEP/ASLR/CFG.",
             "Is32": true,
             "Is64": true,
             "Name": "checksec",
-            "SHA1": "1473c419320235fa6ee25ee695d7600d5fa74fbe",
+            "SHA1": "affa019ad0f4c47998cd8de79e80fe32f2bec7b4",
             "Size": 215250,
             "Src": "https://github.com/x64dbg/PluginManager/releases/download/base/checksec_0.1.x64dbg.zip",
             "Version": "0.1"
