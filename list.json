@@ -18,16 +18,16 @@
         {
             "Author": "Aguila & cypher",
             "Bugreport": "https://github.com/x64dbg/ScyllaHide/issues",
-            "CompressedSize": 885993,
-            "Date": "2020-01-04",
+            "CompressedSize": 903146,
+            "Date": "2020-02-22",
             "Info": "Open-source user-mode Anti-Anti-Debug plugin.",
             "Is32": true,
             "Is64": true,
             "Name": "ScyllaHide",
-            "SHA1": "abf3f650294961ca7eee8ead332e62f9c174d371",
-            "Size": 1701126,
-            "Src": "https://github.com/x64dbg/PluginManager/releases/download/base/ScyllaHide_2019-12-25.x64dbg.zip",
-            "Version": "2019-12-25"
+            "SHA1": "a9d641cebc2399da2e760c38525a53086616902f",
+            "Size": 1747276,
+            "Src": "https://github.com/x64dbg/PluginManager/releases/download/base/ScyllaHide_2020-01-25.x64dbg.zip",
+            "Version": "2020-01-25"
         },
         {
             "Author": "Nukem",
