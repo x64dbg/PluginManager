@@ -574,6 +574,20 @@
             "Size": 642766,
             "Src": "https://github.com/x64dbg/PluginManager/releases/download/base/SharpOD_0.6b.x64dbg.zip",
             "Version": "0.6b"
+        },
+        {
+            "Author": "gORDon_vdLg",
+            "Bugreport": "https://github.com/LFriede/x64dbg-updater/issues",
+            "CompressedSize": 60788,
+            "Date": "2020-04-12",
+            "Info": "Automatic update checks with the plugin manager on x64dbg startup.",
+            "Is32": true,
+            "Is64": true,
+            "Name": "x64dbg_updater",
+            "SHA1": "b2e3bf48ae7deda6538124e884a14bbc7cb97cff",
+            "Size": 228288,
+            "Src": "https://github.com/LFriede/x64dbg-updater/releases/download/0.3/x64dbg_updater.x64dbg.zip",
+            "Version": "0.3"
         }
     ]
 }
