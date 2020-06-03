@@ -12,7 +12,7 @@
             "Name": "x64core",
             "SHA1": "8291d151eebe78767f146d4c8f608ce791dbc18e",
             "Size": 82186038,
-            "Src": "x64core_2020-06-03.x64dbg.zip",
+            "Src": "https://github.com/x64dbg/PluginManager/releases/download/base/x64core_2020-06-03.x64dbg.zip",
             "Version": "2020-06-03"
         },
         {
