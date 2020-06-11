@@ -4,16 +4,16 @@
         {
             "Author": "mrexodia",
             "Bugreport": "https://github.com/x64dbg/x64dbg/issues",
-            "CompressedSize": 33210454,
-            "Date": "2020-06-03",
+            "CompressedSize": 33238539,
+            "Date": "2020-06-11",
             "Info": "An open-source x64/x32 debugger for windows.",
             "Is32": true,
             "Is64": true,
             "Name": "x64core",
-            "SHA1": "8291d151eebe78767f146d4c8f608ce791dbc18e",
-            "Size": 82186038,
-            "Src": "https://github.com/x64dbg/PluginManager/releases/download/base/x64core_2020-06-03.x64dbg.zip",
-            "Version": "2020-06-03"
+            "SHA1": "aebc40d72d5971808753a9a18845e63cf9c52cdb",
+            "Size": 82259254,
+            "Src": "https://github.com/x64dbg/PluginManager/releases/download/base/x64core_2020-06-04.x64dbg.zip",
+            "Version": "2020-06-04"
         },
         {
             "Author": "Aguila & cypher",
