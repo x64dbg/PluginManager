@@ -588,6 +588,20 @@
             "Size": 228288,
             "Src": "https://github.com/LFriede/x64dbg-updater/releases/download/0.3/x64dbg_updater.x64dbg.zip",
             "Version": "0.3"
-        }
+        },
+        {
+            "Author": "mrexodia",
+            "Bugreport": "https://github.com/x64dbg/x64dbgida/issues",
+            "CompressedSize": 4273,
+            "Date": "2020-07-21",
+            "Info": "Import/Export comments/labels/breakpoints to a JSON database that can be loaded by x64dbg/ida.",
+            "Is32": true,
+            "Is64": true,
+            "Name": "x64dbgida",
+            "SHA1": "65270721ca3c516d862da4e5353033c2494a814d",
+            "Size": 4273,
+            "Src": "https://github.com/x64dbg/x64dbgida/archive/master.zip",
+            "Version": "2.0"
+        },
     ]
 }
