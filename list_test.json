@@ -1,0 +1,14 @@
+{
+    "Date": "2020-08-05",
+    "Modules": [
+        {
+            "Author": "hors",
+            "Bugreport": "https://github.com/horsicq/stringsx64dbg/issues",
+            "Info": "Strings plugin. ANSI and UNICODE. RegEXP support.",
+            "Is32": true,
+            "Is64": true,
+            "Name": "stringsx64dbg",
+            "Type": "GITHUB_ZIP"
+        }
+    ]
+}
