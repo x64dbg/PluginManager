@@ -8,7 +8,8 @@
             "Is32": true,
             "Is64": true,
             "Name": "stringsx64dbg",
-            "Type": "GITHUB_ZIP"
+            "Type": "GITHUB_ZIP",
+            "GHLink": "https://github.com/horsicq/stringsx64dbg"
         }
     ]
 }
