@@ -9,7 +9,7 @@
             "Is64": true,
             "Name": "stringsx64dbg",
             "Type": "GITHUB_ZIP",
-            "GHLink": "https://github.com/horsicq/stringsx64dbg"
+            "Github": "https://github.com/horsicq/stringsx64dbg"
         }
     ]
 }
