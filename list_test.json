@@ -10,7 +10,7 @@
             "Name": "stringsx64dbg",
             "Type": "GITHUB_ZIP",
             "Github": "https://github.com/horsicq/stringsx64dbg",
-            "Pattern": "release.zip"
+            "Pattern": "release.zip",
             "Convert": [
                 {
                     "Action": "make_directory",
