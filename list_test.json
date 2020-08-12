@@ -11,6 +11,24 @@
             "Type": "GITHUB_ZIP",
             "Github": "https://github.com/horsicq/stringsx64dbg",
             "Pattern": "release.zip"
+            "Convert": [
+                {
+                    "Action": "make_directory",
+                    "Path": "x32"
+                },
+                {
+                    "Action": "make_directory",
+                    "Path": "x32/plugins"
+                },
+                {
+                    "Action": "make_directory",
+                    "Path": "x64"
+                },
+                {
+                    "Action": "make_directory",
+                    "Path": "x64/plugins"
+                }
+            ]
         }
     ]
 }
