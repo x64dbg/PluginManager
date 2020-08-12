@@ -11,7 +11,7 @@
             "Type": "GITHUB_ZIP",
             "Github": "https://github.com/horsicq/stringsx64dbg",
             "Pattern": "release.zip"
-            "Convert": [
+            "Convert" [
                 {
                     "Action": "make_directory",
                     "Path": "x32"
