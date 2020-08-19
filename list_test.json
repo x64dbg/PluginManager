@@ -13,20 +13,14 @@
             "Pattern": "release.zip",
             "Convert": [
                 {
-                    "Action": "make_directory",
-                    "Path": "x32"
+                    "Action": "unpack_file",
+                    "Src": "release/x32/plugins/strings.dp32",
+                    "Path": "x32/plugins/strings.dp32"
                 },
                 {
-                    "Action": "make_directory",
-                    "Path": "x32/plugins"
-                },
-                {
-                    "Action": "make_directory",
-                    "Path": "x64"
-                },
-                {
-                    "Action": "make_directory",
-                    "Path": "x64/plugins"
+                    "Action": "unpack_file",
+                    "Src": "release/x64/plugins/strings.dp64",
+                    "Path": "x64/plugins/strings.dp64"
                 }
             ]
         }
