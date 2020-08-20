@@ -2,6 +2,17 @@
     "Date": "2020-08-05",
     "Modules": [
         {
+            "Author": "mrexodia",
+            "Bugreport": "https://github.com/x64dbg/x64dbg/issues",
+            "Info": "An open-source x64/x32 debugger for windows.",
+            "Is32": true,
+            "Is64": true,
+            "Name": "x64core",
+            "Type": "GITHUB_ZIP",
+            "Github": "https://github.com/x64dbg/x64dbg",
+            "Pattern": "snapshot",
+        },
+        {
             "Author": "hors",
             "Bugreport": "https://github.com/horsicq/stringsx64dbg/issues",
             "Info": "Strings plugin. ANSI and UNICODE. RegEXP support.",
