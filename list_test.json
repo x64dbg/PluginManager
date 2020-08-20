@@ -25,6 +25,210 @@
             ]
         },
         {
+            "Author": "Aguila & cypher",
+            "Bugreport": "https://github.com/x64dbg/ScyllaHide/issues",
+            "CompressedSize": 903146,
+            "Date": "2020-02-22",
+            "Info": "Open-source user-mode Anti-Anti-Debug plugin.",
+            "Is32": true,
+            "Is64": true,
+            "Name": "ScyllaHide",
+            "SHA1": "a9d641cebc2399da2e760c38525a53086616902f",
+            "Size": 1747276,
+            "Src": "https://github.com/x64dbg/PluginManager/releases/download/base/ScyllaHide_2020-01-25.x64dbg.zip",
+            "Version": "2020-01-25"
+        },
+        {
+            "Author": "Nukem",
+            "Bugreport": "https://github.com/Nukem9/SwissArmyKnife/issues",
+            "CompressedSize": 695024,
+            "Date": "2020-01-04",
+            "Info": "Utility for linker map files, diff files, peid/ida signatures, and code signature generation.",
+            "Is32": true,
+            "Is64": true,
+            "Name": "SwissArmyKnife",
+            "SHA1": "68c26f38add42cec0615abf73fa7bf3562a8dafe",
+            "Size": 1227541,
+            "Src": "https://github.com/x64dbg/PluginManager/releases/download/base/SwissArmyKnife_12-8-2019.x64dbg.zip",
+            "Version": "12-8-2019"
+        },
+        {
+            "Author": "Insid3Code",
+            "Bugreport": "https://github.com/Insid3CodeTeam/Highlightfish/issues",
+            "CompressedSize": 11303,
+            "Date": "2020-01-04",
+            "Info": "Plugin to customize x64dbg colors and Highlightings.",
+            "Is32": true,
+            "Is64": true,
+            "Name": "Highlightfish",
+            "SHA1": "4409e4ea06d93c9fe50950f5654ac01b95b4c9d1",
+            "Size": 39132,
+            "Src": "https://github.com/x64dbg/PluginManager/releases/download/base/Highlightfish.x64dbg.zip",
+            "Version": ""
+        },
+        {
+            "Author": "RaMMicHaeL",
+            "Bugreport": "https://rammichael.com",
+            "CompressedSize": 482620,
+            "Date": "2020-01-04",
+            "Info": "Multiline Ultimate Assembler is a multiline (and ultimate) assembler (and disassembler) plugin.",
+            "Is32": true,
+            "Is64": true,
+            "Name": "multiasm",
+            "SHA1": "9f9f6e00a46a9eadc14a97c6abc984de424a36a4",
+            "Size": 678159,
+            "Src": "https://github.com/x64dbg/PluginManager/releases/download/base/multiasm.x64dbg.zip",
+            "Version": ""
+        },
+        {
+            "Author": "lowprio20",
+            "Bugreport": "http://low-priority.appspot.com/ollymigrate",
+            "CompressedSize": 60885,
+            "Date": "2020-01-04",
+            "Info": "This plugin make it possible to pass debuggee to another debugger without restarting (like VM live migration).",
+            "Is32": true,
+            "Is64": true,
+            "Name": "OllyMigrate",
+            "SHA1": "67e599abee10e512d98e3bdb5b2830718f37fd79",
+            "Size": 136103,
+            "Src": "https://github.com/x64dbg/PluginManager/releases/download/base/OllyMigrate_1.06.x64dbg.zip",
+            "Version": "1.06"
+        },
+        {
+            "Author": "lowprio20",
+            "Bugreport": "http://low-priority.appspot.com/ollydumpex",
+            "CompressedSize": 116473,
+            "Date": "2020-01-04",
+            "Info": "Process memory dumper for x64dbg, OllyDbg and Immunity Debugger.",
+            "Is32": true,
+            "Is64": true,
+            "Name": "OllyDumpEx",
+            "SHA1": "c78d1c1968ccafb21c95c34c86e5c25668394ef5",
+            "Size": 249181,
+            "Src": "https://github.com/x64dbg/PluginManager/releases/download/base/OllyDumpEx_1.72.x64dbg.zip",
+            "Version": "1.72"
+        },
+        {
+            "Author": "jdavidberger",
+            "Bugreport": "https://github.com/jdavidberger/chaiScriptPlugin/issues",
+            "Info": "Plugin which enables chai scripts to run inside of x64dbg.",
+            "Is32": true,
+            "Is64": true,
+            "Name": "ChaiScript",
+            "Type": "GITHUB_ZIP",
+            "Github": "https://github.com/jdavidberger/chaiScriptPlugin",
+            "Pattern": "release.zip",
+            "Convert": [
+                {
+                    "Action": "unpack_file",
+                    "Src": "chaiScriptPlugin.dp32",
+                    "Path": "x32/plugins/chaiScriptPlugin.dp32"
+                },
+                {
+                    "Action": "unpack_file",
+                    "Src": "chaiScriptPlugin.dp64",
+                    "Path": "x64/plugins/chaiScriptPlugin.dp64"
+                }
+            ]
+        },
+        {
+            "Author": "mrfearless",
+            "Bugreport": "https://github.com/mrfearless/APISearch-Plugin-x86/issues",
+            "CompressedSize": 18017,
+            "Date": "2020-01-04",
+            "Info": "A plugin to allow searching for API calls and/or searching online from command bar.",
+            "Is32": true,
+            "Is64": true,
+            "Name": "APISearch",
+            "SHA1": "ef76aa9cea9d806120707b756996c293f540e8a5",
+            "Size": 37934,
+            "Src": "https://github.com/x64dbg/PluginManager/releases/download/base/APISearch_1.0.0.X.x64dbg.zip",
+            "Version": "1.0.0.X"
+        },
+        {
+            "Author": "mrfearless",
+            "Bugreport": "https://github.com/mrfearless/CodeShot-Plugin-x86/issues",
+            "CompressedSize": 68145,
+            "Date": "2020-01-04",
+            "Info": "A plugin to capture the x64dbg screen to an image file.",
+            "Is32": true,
+            "Is64": false,
+            "Name": "CodeShot",
+            "SHA1": "fa7a0ddbbd266123dcac229b8cbd7f8802fc99d8",
+            "Size": 181714,
+            "Src": "https://github.com/x64dbg/PluginManager/releases/download/base/CodeShot_1.0.0.X.x64dbg.zip",
+            "Version": "1.0.0.X"
+        },
+        {
+            "Author": "TheCrazyT",
+            "Bugreport": "https://github.com/TheCrazyT/x64dbg-plugin-quickaccess/issues",
+            "CompressedSize": 11780,
+            "Date": "2020-01-04",
+            "Info": "For the lazy people that can't remember all the shortcuts. Just press Ctrl+3 and you can access any menu.",
+            "Is32": false,
+            "Is64": true,
+            "Name": "QuickAccess",
+            "SHA1": "23934a82260ddfd9242b82ab43717045aa64fb4e",
+            "Size": 27263,
+            "Src": "https://github.com/x64dbg/PluginManager/releases/download/base/QuickAccess_1.3.68.x64dbg.zip",
+            "Version": "1.3.68"
+        },
+        {
+            "Author": "ThunderCls",
+            "Bugreport": "https://github.com/ThunderCls/xLCB/issues",
+            "CompressedSize": 65390,
+            "Date": "2020-01-04",
+            "Info": "Plugin that mimics the function of the original LCB plugin for OllyDbg by scherzo.",
+            "Is32": true,
+            "Is64": false,
+            "Name": "xLCB",
+            "SHA1": "6f88635305ca4d3595757c350bc55156442d9137",
+            "Size": 75315,
+            "Src": "https://github.com/x64dbg/PluginManager/releases/download/base/xLCB_1.0.x64dbg.zip",
+            "Version": "1.0"
+        },
+        {
+            "Author": "brock7",
+            "Bugreport": "https://github.com/brock7/xdbg/issues",
+            "Info": "Open-source user-mode Anti-Anti-Debug plugin for x64dbg & cheatengine.",
+            "Is32": true,
+            "Is64": false,
+            "Name": "xdbg",
+            "Type": "GITHUB_ZIP",
+            "Github": "https://github.com/brock7/xdbg",
+            "Pattern": "xdbgcore.zip",
+            "Convert": [
+                {
+                    "Action": "unpack_file",
+                    "Src": "xdbgcore.dp32",
+                    "Path": "x32/plugins/xdbgcore.dp32"
+                }
+            ]
+        },
+        {
+            "Author": "torusrxxx",
+            "Bugreport": "https://github.com/torusrxxx/ExtraInfo/issues",
+            "Info": "Show extra information in the info box.",
+            "Is32": true,
+            "Is64": true,
+            "Name": "ExtraInfo",
+            "Type": "GITHUB_ZIP",
+            "Github": "https://github.com/torusrxxx/ExtraInfo",
+            "Pattern": "ExtraInfo.zip",
+            "Convert": [
+                {
+                    "Action": "unpack_file",
+                    "Src": "ExtraInfo.dp32",
+                    "Path": "x32/plugins/ExtraInfo.dp32"
+                },
+                {
+                    "Action": "unpack_file",
+                    "Src": "ExtraInfo.dp32",
+                    "Path": "x64/plugins/ExtraInfo.dp32"
+                }
+            ]
+        },
+        {
             "Author": "hors",
             "Bugreport": "https://github.com/horsicq/stringsx64dbg/issues",
             "Info": "Strings plugin. ANSI and UNICODE. RegEXP support.",
@@ -33,7 +237,7 @@
             "Name": "stringsx64dbg",
             "Type": "GITHUB_ZIP",
             "Github": "https://github.com/horsicq/stringsx64dbg",
-            "Pattern": "release.zip",
+            "Pattern": "chaiScriptPlugin",
             "Convert": [
                 {
                     "Action": "unpack_directory",
