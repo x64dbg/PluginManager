@@ -36,14 +36,9 @@
             "Pattern": "release.zip",
             "Convert": [
                 {
-                    "Action": "unpack_file",
-                    "Src": "release/x32/plugins/strings.dp32",
-                    "Path": "x32/plugins/strings.dp32"
-                },
-                {
-                    "Action": "unpack_file",
-                    "Src": "release/x64/plugins/strings.dp64",
-                    "Path": "x64/plugins/strings.dp64"
+                    "Action": "unpack_directory",
+                    "Src": "release",
+                    "Path": "/"
                 }
             ]
         }
