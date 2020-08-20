@@ -117,7 +117,7 @@
             "Name": "ChaiScript",
             "Type": "GITHUB_ZIP",
             "Github": "https://github.com/jdavidberger/chaiScriptPlugin",
-            "Pattern": "release.zip",
+            "Pattern": "chaiScriptPlugin",
             "Convert": [
                 {
                     "Action": "unpack_file",
@@ -229,6 +229,76 @@
             ]
         },
         {
+            "Author": "ThunderCls",
+            "Bugreport": "https://github.com/ThunderCls/xHotSpots/issues",
+            "CompressedSize": 88671,
+            "Date": "2020-01-04",
+            "Info": "This is the new plugin rewrite based on the deprecated MagicPoints.",
+            "Is32": true,
+            "Is64": true,
+            "Name": "xHotSpots",
+            "SHA1": "1a394f01e5710a2ff3c64f2d9c80313bf2a25371",
+            "Size": 700119,
+            "Src": "https://github.com/x64dbg/PluginManager/releases/download/base/xHotSpots_1.0.0.x64dbg.zip",
+            "Version": "1.0.0"
+        },
+        {
+            "Author": "ThunderCls",
+            "Bugreport": "https://github.com/ThunderCls/xAnalyzer/issues",
+            "CompressedSize": 1773877,
+            "Date": "2020-01-04",
+            "Info": "xAnalyzer is capable of calling internal commands of x64dbg to make all kind of analysis and also integrates one of his own.",
+            "Is32": true,
+            "Is64": true,
+            "Name": "xAnalyzer",
+            "SHA1": "3ed2d5ac8cfcf4773ff0989ae43cf8bb9e5ceedf",
+            "Size": 8222059,
+            "Src": "https://github.com/x64dbg/PluginManager/releases/download/base/xAnalyzer_2.5.4.x64dbg.zip",
+            "Version": "2.5.4"
+        },
+        {
+            "Author": "Codecat",
+            "Bugreport": "https://github.com/codecat/ClawSearch/issues",
+            "Info": "A memory scanner plugin for x64dbg, inspired by Cheat Engine.",
+            "Is32": true,
+            "Is64": true,
+            "Name": "ClawSearch",
+            "Type": "GITHUB_ZIP",
+            "Github": "https://github.com/codecat/ClawSearch/",
+            "Pattern": "ClawSearch",
+            "Convert": [
+                {
+                    "Action": "unpack_file",
+                    "Src": "Readme.txt",
+                    "Path": "docs/ClawSearch/Readme.txt"
+                },
+                {
+                    "Action": "unpack_file",
+                    "Src": "ClawSearch.dp32",
+                    "Path": "x32/plugins/ClawSearch.dp32"
+                },
+                {
+                    "Action": "unpack_file",
+                    "Src": "ClawSearch.dp32",
+                    "Path": "x64/plugins/ClawSearch.dp32"
+                }
+            ]
+        },
+        {
+            "Author": "changeofpace",
+            "Bugreport": "https://github.com/changeofpace/PE-Header-Dump-Utilities/issues",
+            "CompressedSize": 129387,
+            "Date": "2020-01-04",
+            "Info": "Adds several commands to x64dbg for dumping PE header information by address.",
+            "Is32": true,
+            "Is64": true,
+            "Name": "PEHeaderDumpUtilities",
+            "SHA1": "06a850cabdcd9b33f09e1a32c343f84968706b82",
+            "Size": 258873,
+            "Src": "https://github.com/x64dbg/PluginManager/releases/download/base/PEHeaderDumpUtilities_1.0.x64dbg.zip",
+            "Version": "1.0"
+        },
+        {
             "Author": "hors",
             "Bugreport": "https://github.com/horsicq/stringsx64dbg/issues",
             "Info": "Strings plugin. ANSI and UNICODE. RegEXP support.",
@@ -237,7 +307,7 @@
             "Name": "stringsx64dbg",
             "Type": "GITHUB_ZIP",
             "Github": "https://github.com/horsicq/stringsx64dbg",
-            "Pattern": "chaiScriptPlugin",
+            "Pattern": "release.zip",
             "Convert": [
                 {
                     "Action": "unpack_directory",
