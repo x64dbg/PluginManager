@@ -111,25 +111,16 @@
         {
             "Author": "jdavidberger",
             "Bugreport": "https://github.com/jdavidberger/chaiScriptPlugin/issues",
+            "CompressedSize": 1039486,
+            "Date": "2020-01-04",
             "Info": "Plugin which enables chai scripts to run inside of x64dbg.",
             "Is32": true,
             "Is64": true,
             "Name": "ChaiScript",
-            "Type": "GITHUB_ZIP",
-            "Github": "https://github.com/jdavidberger/chaiScriptPlugin",
-            "Pattern": "chaiScriptPlugin",
-            "Convert": [
-                {
-                    "Action": "unpack_file",
-                    "Src": "chaiScriptPlugin.dp32",
-                    "Path": "x32/plugins/chaiScriptPlugin.dp32"
-                },
-                {
-                    "Action": "unpack_file",
-                    "Src": "chaiScriptPlugin.dp64",
-                    "Path": "x64/plugins/chaiScriptPlugin.dp64"
-                }
-            ]
+            "SHA1": "49d708c7e2319b4aabaff5b0bc8652a1df246d8f",
+            "Size": 4204792,
+            "Src": "https://github.com/x64dbg/PluginManager/releases/download/base/ChaiScript_0.02.x64dbg.zip",
+            "Version": "0.02"
         },
         {
             "Author": "mrfearless",
