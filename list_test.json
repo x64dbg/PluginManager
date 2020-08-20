@@ -10,7 +10,19 @@
             "Name": "x64core",
             "Type": "GITHUB_ZIP",
             "Github": "https://github.com/x64dbg/x64dbg",
-            "Pattern": "snapshot"
+            "Pattern": "snapshot",
+            "Convert": [
+                {
+                    "Action": "unpack_file",
+                    "Src": "commithash.txt",
+                    "Path": "/"
+                },
+                {
+                    "Action": "unpack_directory",
+                    "Src": "release",
+                    "Path": "/"
+                }
+            ]
         },
         {
             "Author": "hors",
