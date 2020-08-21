@@ -1,5 +1,5 @@
 {
-    "Date": "2020-08-21",
+    "Date": "2020-08-20",
     "Modules": [
         {
             "Author": "mrexodia",
@@ -297,7 +297,7 @@
             "Is64": true,
             "Name": "LabelPEB",
             "Type": "GITHUB_ZIP",
-            "Github":: "https://github.com/x64dbg/LabelPEB",
+            "Github": "https://github.com/x64dbg/LabelPEB",
             "Pattern": "LabelPEB",
             "Convert": [
                 {
