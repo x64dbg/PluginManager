@@ -186,10 +186,10 @@
             "Is64": false,
             "Name": "xdbg",
             "Github": "https://github.com/brock7/xdbg",
-            "Pattern": "xdbgcore.zip",
             "Convert": [
                 {
                     "Action": "unpack_file",
+                    "Pattern": "xdbgcore.zip",
                     "Src": "xdbgcore.dp32",
                     "Path": "x32/plugins/xdbgcore.dp32"
                 }
@@ -203,15 +203,22 @@
             "Is64": true,
             "Name": "ExtraInfo",
             "Github": "https://github.com/torusrxxx/ExtraInfo",
-            "Pattern": "ExtraInfo.zip",
             "Convert": [
                 {
                     "Action": "unpack_file",
+                    "Pattern": "ExtraInfo.zip",
+                    "Src": "LICENSE",
+                    "Path": "docs/ExtraInfo/LICENSE"
+                },
+                {
+                    "Action": "unpack_file",
+                    "Pattern": "ExtraInfo.zip",
                     "Src": "ExtraInfo.dp32",
                     "Path": "x32/plugins/ExtraInfo.dp32"
                 },
                 {
                     "Action": "unpack_file",
+                    "Pattern": "ExtraInfo.zip",
                     "Src": "ExtraInfo.dp32",
                     "Path": "x64/plugins/ExtraInfo.dp32"
                 }
@@ -253,20 +260,22 @@
             "Is64": true,
             "Name": "ClawSearch",
             "Github": "https://github.com/codecat/ClawSearch/",
-            "Pattern": "ClawSearch",
             "Convert": [
                 {
                     "Action": "unpack_file",
+                    "Pattern": "ClawSearch",
                     "Src": "Readme.txt",
                     "Path": "docs/ClawSearch/Readme.txt"
                 },
                 {
                     "Action": "unpack_file",
+                    "Pattern": "ClawSearch",
                     "Src": "ClawSearch.dp32",
                     "Path": "x32/plugins/ClawSearch.dp32"
                 },
                 {
                     "Action": "unpack_file",
+                    "Pattern": "ClawSearch",
                     "Src": "ClawSearch.dp32",
                     "Path": "x64/plugins/ClawSearch.dp32"
                 }
@@ -294,10 +303,10 @@
             "Is64": true,
             "Name": "LabelPEB",
             "Github": "https://github.com/x64dbg/LabelPEB",
-            "Pattern": "LabelPEB",
             "Convert": [
                 {
                     "Action": "unpack_directory",
+                    "Pattern": "LabelPEB",
                     "Src": "/",
                     "Path": "/"
                 }
@@ -549,10 +558,10 @@
             "Is64": true,
             "Name": "stringsx64dbg",
             "Github": "https://github.com/horsicq/stringsx64dbg",
-            "Pattern": "release.zip",
             "Convert": [
                 {
                     "Action": "unpack_directory",
+                    "Pattern": "release.zip",
                     "Src": "release",
                     "Path": "/"
                 }
