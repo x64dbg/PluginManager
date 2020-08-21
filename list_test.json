@@ -8,17 +8,17 @@
             "Is32": true,
             "Is64": true,
             "Name": "x64core",
-            "Type": "GITHUB_ZIP",
             "Github": "https://github.com/x64dbg/x64dbg",
-            "Pattern": "snapshot",
             "Convert": [
                 {
                     "Action": "unpack_file",
+                    "Pattern": "snapshot",
                     "Src": "commithash.txt",
                     "Path": "commithash.txt"
                 },
                 {
                     "Action": "unpack_directory",
+                    "Pattern": "snapshot",
                     "Src": "release",
                     "Path": "/"
                 }
@@ -185,7 +185,6 @@
             "Is32": true,
             "Is64": false,
             "Name": "xdbg",
-            "Type": "GITHUB_ZIP",
             "Github": "https://github.com/brock7/xdbg",
             "Pattern": "xdbgcore.zip",
             "Convert": [
@@ -203,7 +202,6 @@
             "Is32": true,
             "Is64": true,
             "Name": "ExtraInfo",
-            "Type": "GITHUB_ZIP",
             "Github": "https://github.com/torusrxxx/ExtraInfo",
             "Pattern": "ExtraInfo.zip",
             "Convert": [
@@ -254,7 +252,6 @@
             "Is32": true,
             "Is64": true,
             "Name": "ClawSearch",
-            "Type": "GITHUB_ZIP",
             "Github": "https://github.com/codecat/ClawSearch/",
             "Pattern": "ClawSearch",
             "Convert": [
@@ -296,7 +293,6 @@
             "Is32": true,
             "Is64": true,
             "Name": "LabelPEB",
-            "Type": "GITHUB_ZIP",
             "Github": "https://github.com/x64dbg/LabelPEB",
             "Pattern": "LabelPEB",
             "Convert": [
@@ -420,7 +416,7 @@
             "Version": "0.11"
         },
         {
-            "Author": "x64dbg",
+            "Author": "mrexodia",
             "Bugreport": "https://github.com/x64dbg/strmatch/issues",
             "CompressedSize": 115713,
             "Date": "2020-01-04",
@@ -552,7 +548,6 @@
             "Is32": true,
             "Is64": true,
             "Name": "stringsx64dbg",
-            "Type": "GITHUB_ZIP",
             "Github": "https://github.com/horsicq/stringsx64dbg",
             "Pattern": "release.zip",
             "Convert": [
@@ -578,7 +573,7 @@
             "Version": "0.04"
         },
         {
-            "Author": "x64dbg",
+            "Author": "mrexodia",
             "Bugreport": "https://github.com/x64dbg/snowman/issues",
             "CompressedSize": 1533739,
             "Date": "2020-01-04",
