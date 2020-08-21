@@ -153,16 +153,18 @@
         {
             "Author": "TheCrazyT",
             "Bugreport": "https://github.com/TheCrazyT/x64dbg-plugin-quickaccess/issues",
-            "CompressedSize": 11780,
-            "Date": "2020-01-04",
             "Info": "For the lazy people that can't remember all the shortcuts. Just press Ctrl+3 and you can access any menu.",
             "Is32": false,
             "Is64": true,
             "Name": "QuickAccess",
-            "SHA1": "23934a82260ddfd9242b82ab43717045aa64fb4e",
-            "Size": 27263,
-            "Src": "https://github.com/x64dbg/PluginManager/releases/download/base/QuickAccess_1.3.68.x64dbg.zip",
-            "Version": "1.3.68"
+            "Github": "https://github.com/TheCrazyT/x64dbg-plugin-quickaccess",
+            "Convert": [
+                {
+                    "Action": "copy_file",
+                    "Pattern": "quickaccess.dp64",
+                    "Path": "x64/plugins/quickaccess.dp32",
+                }
+            ]
         },
         {
             "Author": "ThunderCls",
