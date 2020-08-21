@@ -162,7 +162,7 @@
                 {
                     "Action": "copy_file",
                     "Pattern": "quickaccess.dp64",
-                    "Path": "x64/plugins/quickaccess.dp32",
+                    "Path": "x64/plugins/quickaccess.dp32"
                 }
             ]
         },
