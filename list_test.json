@@ -429,16 +429,25 @@
         {
             "Author": "mrexodia",
             "Bugreport": "https://github.com/x64dbg/strmatch/issues",
-            "CompressedSize": 115713,
-            "Date": "2020-01-04",
             "Info": "Simple string matching plugin for x64dbg. Supports UTF8, UTF16 and Local codepages.",
             "Is32": true,
             "Is64": true,
             "Name": "strmatch",
-            "SHA1": "4b525fc4da4a7d8b5b318d7148969d02d552a578",
-            "Size": 235733,
-            "Src": "https://github.com/x64dbg/PluginManager/releases/download/base/strmatch_0.1.x64dbg.zip",
-            "Version": "0.1"
+            "Github": "https://github.com/x64dbg/strmatch",
+            "Convert": [
+                {
+                    "Action": "unpack_file",
+                    "Pattern": "strmatch.zip",
+                    "Src": "bin/x32/plugins/strmatch.dp32",
+                    "Path": "x32/plugins/strmatch.dp32"
+                },
+                {
+                    "Action": "unpack_file",
+                    "Pattern": "strmatch.zip",
+                    "Src": "bin/x64/plugins/strmatch.dp64",
+                    "Path": "x64/plugins/strmatch.dp64"
+                }
+            ]
         },
         {
             "Author": "mrexodia",
