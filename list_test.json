@@ -494,16 +494,19 @@
         {
             "Author": "mrexodia",
             "Bugreport": "https://github.com/x64dbg/DbGit/issues",
-            "CompressedSize": 117003,
-            "Date": "2020-01-04",
             "Info": "Simple plugin to automatically add x64dbg databases to version control.",
             "Is32": true,
             "Is64": true,
             "Name": "DbGit",
-            "SHA1": "26d393d9eb77567bf83c4412a27e64923fa95376",
-            "Size": 230582,
-            "Src": "https://github.com/x64dbg/PluginManager/releases/download/base/DbGit_0.1.x64dbg.zip",
-            "Version": "0.1"
+            "Github": "https://github.com/x64dbg/DbGit",
+            "Convert": [
+                {
+                    "Action": "unpack_directory",
+                    "Pattern": "DbGit",
+                    "Src": "/",
+                    "Path": "/"
+                }
+            ]
         },
         {
             "Author": "Vicshann",
