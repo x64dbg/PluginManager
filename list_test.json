@@ -295,16 +295,23 @@
         {
             "Author": "changeofpace",
             "Bugreport": "https://github.com/changeofpace/PE-Header-Dump-Utilities/issues",
-            "CompressedSize": 129387,
-            "Date": "2020-01-04",
             "Info": "Adds several commands to x64dbg for dumping PE header information by address.",
             "Is32": true,
             "Is64": true,
             "Name": "PEHeaderDumpUtilities",
-            "SHA1": "06a850cabdcd9b33f09e1a32c343f84968706b82",
-            "Size": 258873,
-            "Src": "https://github.com/x64dbg/PluginManager/releases/download/base/PEHeaderDumpUtilities_1.0.x64dbg.zip",
-            "Version": "1.0"
+            "Github": "https://github.com/changeofpace/PE-Header-Dump-Utilities",
+            "Convert": [
+                {
+                    "Action": "copy_file",
+                    "Pattern": "PEHeaderDumpUtilities.dp32",
+                    "Path": "x32/plugins/PEHeaderDumpUtilities.dp32"
+                },
+                {
+                    "Action": "copy_file",
+                    "Pattern": "PEHeaderDumpUtilities.dp64",
+                    "Path": "x64/plugins/PEHeaderDumpUtilities.dp64"
+                }
+            ]
         },
         {
             "Author": "torusrxxx",
