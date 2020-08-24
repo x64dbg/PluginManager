@@ -125,16 +125,25 @@
         {
             "Author": "mrfearless",
             "Bugreport": "https://github.com/mrfearless/APISearch-Plugin-x86/issues",
-            "CompressedSize": 18017,
-            "Date": "2020-01-04",
             "Info": "A plugin to allow searching for API calls and/or searching online from command bar.",
             "Is32": true,
             "Is64": true,
             "Name": "APISearch",
-            "SHA1": "ef76aa9cea9d806120707b756996c293f540e8a5",
-            "Size": 37934,
-            "Src": "https://github.com/x64dbg/PluginManager/releases/download/base/APISearch_1.0.0.X.x64dbg.zip",
-            "Version": "1.0.0.X"
+            "Github": "https://github.com/mrfearless/APISearch-Plugin-x86",
+            "Convert": [
+                {
+                    "Action": "unpack_file",
+                    "Pattern": "snapshot",
+                    "Src": "commithash.txt",
+                    "Path": "commithash.txt"
+                },
+                {
+                    "Action": "unpack_directory",
+                    "Pattern": "snapshot",
+                    "Src": "release",
+                    "Path": "/"
+                }
+            ]
         },
         {
             "Author": "mrfearless",
