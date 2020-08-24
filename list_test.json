@@ -478,16 +478,23 @@
         {
             "Author": "mrexodia",
             "Bugreport": "https://github.com/mrexodia/YaraGen/issues",
-            "CompressedSize": 120392,
-            "Date": "2020-01-04",
             "Info": "Plugin for x64dbg to generate Yara rules from function basic blocks.",
             "Is32": true,
             "Is64": true,
             "Name": "YaraGen",
-            "SHA1": "6285d6a4602c1d39d999604bc7bb74ce0537fcad",
-            "Size": 240835,
-            "Src": "https://github.com/x64dbg/PluginManager/releases/download/base/YaraGen_0.1.x64dbg.zip",
-            "Version": "0.1"
+            "Github": "https://github.com/mrexodia/YaraGen",
+            "Convert": [
+                {
+                    "Action": "copy_file",
+                    "Pattern": "YaraGen.dp32",
+                    "Path": "x32/plugins/YaraGen.dp32"
+                },
+                {
+                    "Action": "copy_file",
+                    "Pattern": "YaraGen.dp64",
+                    "Path": "x64/plugins/YaraGen.dp64"
+                }
+            ]
         },
         {
             "Author": "atom0s",
