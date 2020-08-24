@@ -623,16 +623,35 @@
         {
             "Author": "Lasha Khasaia, @qaz_qaz",
             "Bugreport": "https://github.com/secrary/idenLib/issues",
-            "CompressedSize": 815745,
-            "Date": "2020-01-04",
             "Info": "Plugin to identify library functions",
             "Is32": true,
             "Is64": false,
             "Name": "idenLib",
-            "SHA1": "864a6444af89b57586f76f6eff655800c5de5108",
-            "Size": 1925600,
-            "Src": "https://github.com/x64dbg/PluginManager/releases/download/base/idenLib_0.4.2.x64dbg.zip",
-            "Version": "0.4.2"
+            "Github": "https://github.com/secrary/idenLib",
+            "Convert": [
+                {
+                    "Action": "make_directory",
+                    "Path": "plugins/x32/SymEx"
+                },
+                {
+                    "Action": "unpack_file",
+                    "Pattern": "idenLib.zip",
+                    "Src": "idenLib.dp32",
+                    "Path": "bin/x32/plugins/idenLib.dp32"
+                },
+                {
+                    "Action": "unpack_file",
+                    "Pattern": "idenLib.zip",
+                    "Src": "idenLib.exe",
+                    "Path": "idenLib.exe"
+                },
+                {
+                    "Action": "unpack_file",
+                    "Pattern": "idenLib.zip",
+                    "Src": "idenLib.py",
+                    "Path": "idenLib.py"
+                }
+            ]
         },
         {
             "Author": "hors",
