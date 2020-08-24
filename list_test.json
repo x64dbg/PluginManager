@@ -410,30 +410,42 @@
         {
             "Author": "klks",
             "Bugreport": "https://github.com/klks/checksec/issues",
-            "CompressedSize": 116983,
-            "Date": "2020-01-09",
             "Info": "Plugin checks modules for security features enabled such as SafeSEH/GS/DEP/ASLR/CFG.",
             "Is32": true,
             "Is64": true,
             "Name": "checksec",
-            "SHA1": "affa019ad0f4c47998cd8de79e80fe32f2bec7b4",
-            "Size": 215250,
-            "Src": "https://github.com/x64dbg/PluginManager/releases/download/base/checksec_0.1.x64dbg.zip",
-            "Version": "0.1"
+            "Github": "https://github.com/klks/checksec",
+            "Convert": [
+                {
+                    "Action": "copy_file",
+                    "Pattern": "Checksec_v0.1",
+                    "Src": "Checksec_v0.1/checksec.dp32",
+                    "Path": "x32/plugins/checksec.dp32"
+                },
+                {
+                    "Action": "copy_file",
+                    "Pattern": "Checksec_v0.1",
+                    "Src": "Checksec_v0.1/checksec.dp64",
+                    "Path": "x64/plugins/checksec.dp64"
+                }
+            ]
         },
         {
             "Author": "Dreg",
             "Bugreport": "https://github.com/David-Reguera-Garcia-Dreg/DbgChild/issues",
-            "CompressedSize": 1152002,
-            "Date": "2020-01-04",
             "Info": "This plugin is intended to give the user the option to debug (auto-attach) the child processes created by debugee.",
             "Is32": true,
             "Is64": true,
             "Name": "DbgChild",
-            "SHA1": "91cd40a9373010385a189a8637acb13a0d250321",
-            "Size": 4529036,
-            "Src": "https://github.com/x64dbg/PluginManager/releases/download/base/DbgChild_Beta10.x64dbg.zip",
-            "Version": "Beta 10"
+            "Github": "https://github.com/David-Reguera-Garcia-Dreg/DbgChild",
+            "Convert": [
+                {
+                    "Action": "unpack_directory",
+                    "Pattern": "DbgChild.Beta.10.zip",
+                    "Src": "DbgChild Beta 10/release",
+                    "Path": "/"
+                }
+            ]
         },
         {
             "Author": "levisre",
