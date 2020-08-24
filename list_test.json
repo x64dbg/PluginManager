@@ -256,7 +256,7 @@
             "Is32": true,
             "Is64": true,
             "Name": "xAnalyzer",
-            "Src": "https://github.com/ThunderCls/xAnalyzer",
+            "Github": "https://github.com/ThunderCls/xAnalyzer",
             "Convert": [
                 {
                     "Action": "copy_file",
