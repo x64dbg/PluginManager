@@ -817,8 +817,75 @@
                 {
                     "Action": "unpack_directory",
                     "Pattern": "x64dbg_updater.x64dbg.zip",
-                    "Src": "files/",
+                    "Src": "files",
                     "Path": "/"
+                }
+            ]
+        },
+        {
+            "Author": "Andy53",
+            "Bugreport": "https://github.com/Andy53/ERC.Xdbg/issues",
+            "Info": "An X64dbg Plugin of the ERC Library. ERC is an exploit development framework similar to Mona.py.",
+            "Is32": false,
+            "Is64": true,
+            "Name": "ERCXdbg",
+            "Github": "https://github.com/Andy53/ERC.Xdbg",
+            "Convert": [
+                {
+                    "Action": "unpack_directory",
+                    "Pattern": "ERC.Xdbg",
+                    "Src": "/",
+                    "Path": "x64/plugins"
+                }
+            ]
+        },
+        {
+            "Author": "Nisy/PYG",
+            "Bugreport": "https://github.com/sicaril/BaymaxTools/issues",
+            "Info": "Extract the signature(pattern) of the selected instruction and check the number of times the signature(pattern) appears in the current search module.",
+            "Is32": true,
+            "Is64": true,
+            "Name": "BaymaxtoOls",
+            "Github": "https://github.com/sicaril/BaymaxTools",
+            "Convert": [
+                {
+                    "Action": "unpack_file",
+                    "Pattern": "Baymax.toOls.for.x64dbg",
+                    "Src": "read me.txt",
+                    "Path": "docs/BaymaxtoOls/read me.txt"
+                },
+                {
+                    "Action": "unpack_directory",
+                    "Pattern": "Baymax.toOls.for.x64dbg",
+                    "Src": "x32/plugins",
+                    "Path": "x32/plugins"
+                },
+                {
+                    "Action": "unpack_directory",
+                    "Pattern": "Baymax.toOls.for.x64dbg",
+                    "Src": "x64/plugins",
+                    "Path": "x64/plugins"
+                }
+            ]
+        },
+        {
+            "Author": "Oguz Kartal",
+            "Bugreport": "https://github.com/0ffffffffh/yummyPaste",
+            "Info": "Q plugin to able to paste the various type of formatted binary data into the x64dbg's disassembler or dump section.",
+            "Is32": true,
+            "Is64": true,
+            "Name": "snowman",
+            "Github": "https://github.com/0ffffffffh",
+            "Convert": [
+                {
+                    "Action": "copy_file",
+                    "Pattern": "yummyPaste.dp32",
+                    "Path": "x32/plugins/yummyPaste.dp32"
+                },
+                {
+                    "Action": "copy_file",
+                    "Pattern": "yummyPaste.dp64",
+                    "Path": "x64/plugins/yummyPaste.dp64"
                 }
             ]
         }
