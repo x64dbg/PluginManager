@@ -169,16 +169,18 @@
         {
             "Author": "ThunderCls",
             "Bugreport": "https://github.com/ThunderCls/xLCB/issues",
-            "CompressedSize": 65390,
-            "Date": "2020-01-04",
             "Info": "Plugin that mimics the function of the original LCB plugin for OllyDbg by scherzo.",
             "Is32": true,
             "Is64": false,
             "Name": "xLCB",
-            "SHA1": "6f88635305ca4d3595757c350bc55156442d9137",
-            "Size": 75315,
-            "Src": "https://github.com/x64dbg/PluginManager/releases/download/base/xLCB_1.0.x64dbg.zip",
-            "Version": "1.0"
+            "Github": "https://github.com/ThunderCls/xLCB",
+            "Convert": [
+                {
+                    "Action": "copy_file",
+                    "Pattern": "xLCB.dp32",
+                    "Path": "x32/plugins/xLCB.dp32"
+                }
+            ]
         },
         {
             "Author": "brock7",
