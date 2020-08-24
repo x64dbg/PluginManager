@@ -643,16 +643,23 @@
         {
             "Author": "mrexodia",
             "Bugreport": "https://github.com/x64dbg/snowman/issues",
-            "CompressedSize": 1533739,
-            "Date": "2020-01-04",
             "Info": "Snowman decompiler plugin.",
             "Is32": true,
             "Is64": true,
             "Name": "snowman",
-            "SHA1": "7b4b58e4373831b4a3440b6da6d8ff99917f79e8",
-            "Size": 4893847,
-            "Src": "https://github.com/x64dbg/PluginManager/releases/download/base/snowman_1.0.x64dbg.zip",
-            "Version": "1.0"
+            "Github": "https://github.com/x64dbg/snowman",
+            "Convert": [
+                {
+                    "Action": "copy_file",
+                    "Pattern": "snowman.dp32",
+                    "Path": "x32/plugins/snowman.dp32"
+                },
+                {
+                    "Action": "copy_file",
+                    "Pattern": "snowman.dp64",
+                    "Path": "x64/plugins/snowman.dp64"
+                }
+            ]
         },
         {
             "Author": "Xjun",
