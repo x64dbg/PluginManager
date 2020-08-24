@@ -361,16 +361,23 @@
         {
             "Author": "changeofpace",
             "Bugreport": "https://github.com/changeofpace/Force-Page-Protection/issues",
-            "CompressedSize": 90103,
-            "Date": "2020-01-04",
             "Info": "This plugin sets the page protection for memory mapped views in scenarios which cause NtProtectVirtualMemory to fail.",
             "Is32": true,
             "Is64": true,
             "Name": "ForcePageProtection",
-            "SHA1": "17f41cfcb1ad08779aa6c160691d6589cc482093",
-            "Size": 176465,
-            "Src": "https://github.com/x64dbg/PluginManager/releases/download/base/ForcePageProtection_1.0.x64dbg.zip",
-            "Version": "1.0"
+            "Github": "https://github.com/changeofpace/Force-Page-Protection",
+            "Convert": [
+                {
+                    "Action": "copy_file",
+                    "Pattern": "ForcePageProtection.dp32",
+                    "Path": "x32/plugins/ForcePageProtection.dp32"
+                },
+                {
+                    "Action": "copy_file",
+                    "Pattern": "ForcePageProtection.dp64",
+                    "Path": "x64/plugins/ForcePageProtection.dp64"
+                }
+            ]
         },
         {
             "Author": "klks",
