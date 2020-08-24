@@ -136,21 +136,44 @@
             "Bugreport": "https://github.com/mrfearless/APISearch-Plugin-x86/issues",
             "Info": "A plugin to allow searching for API calls and/or searching online from command bar.",
             "Is32": true,
-            "Is64": true,
-            "Name": "APISearch",
+            "Is64": false,
+            "Name": "APISearch_x86",
             "Github": "https://github.com/mrfearless/APISearch-Plugin-x86",
             "Convert": [
                 {
                     "Action": "unpack_file",
-                    "Pattern": "snapshot",
-                    "Src": "commithash.txt",
-                    "Path": "commithash.txt"
+                    "Pattern": "APISearch-x86-Plugin.zip",
+                    "Src": "APISearch-readme.txt",
+                    "Path": "docs/APISearch_x86/APISearch-readme.txt"
                 },
                 {
-                    "Action": "unpack_directory",
-                    "Pattern": "snapshot",
-                    "Src": "release",
-                    "Path": "/"
+                    "Action": "unpack_file",
+                    "Pattern": "APISearch-x86-Plugin.zip",
+                    "Src": "APISearch.dp32",
+                    "Path": "x32/plugins/APISearch.dp32"
+                }
+            ]
+        },
+        {
+            "Author": "mrfearless",
+            "Bugreport": "https://github.com/mrfearless/APISearch-Plugin-x64/issues",
+            "Info": "A plugin to allow searching for API calls and/or searching online from command bar.",
+            "Is32": false,
+            "Is64": true,
+            "Name": "APISearch_x64",
+            "Github": "https://github.com/mrfearless/APISearch-Plugin-x64",
+            "Convert": [
+                {
+                    "Action": "unpack_file",
+                    "Pattern": "APISearch-x64-Plugin.zip",
+                    "Src": "APISearch-readme.txt",
+                    "Path": "docs/APISearch_x64/APISearch-readme.txt"
+                },
+                {
+                    "Action": "unpack_file",
+                    "Pattern": "APISearch-x64-Plugin.zip",
+                    "Src": "APISearch.dp64",
+                    "Path": "x64/plugins/APISearch.dp64"
                 }
             ]
         },
@@ -241,8 +264,8 @@
                 {
                     "Action": "unpack_file",
                     "Pattern": "ExtraInfo.zip",
-                    "Src": "ExtraInfo.dp32",
-                    "Path": "x64/plugins/ExtraInfo.dp32"
+                    "Src": "ExtraInfo.dp64",
+                    "Path": "x64/plugins/ExtraInfo.dp64"
                 }
             ]
         },
@@ -324,8 +347,8 @@
                 {
                     "Action": "unpack_file",
                     "Pattern": "ClawSearch",
-                    "Src": "ClawSearch.dp32",
-                    "Path": "x64/plugins/ClawSearch.dp32"
+                    "Src": "ClawSearch.dp64",
+                    "Path": "x64/plugins/ClawSearch.dp64"
                 }
             ]
         },
@@ -480,16 +503,48 @@
         {
             "Author": "mrfearless",
             "Bugreport": "https://github.com/mrfearless/Today-Plugin-x86/issues",
-            "CompressedSize": 240237,
-            "Date": "2020-01-04",
-            "Info": "An x86/x64 plugin to lists days of interest: national, commemorative, awareness or international observance days.",
+            "Info": "An x86 plugin to lists days of interest: national, commemorative, awareness or international observance days.",
             "Is32": true,
+            "Is64": false,
+            "Name": "Today_x86",
+            "Github": "https://github.com/mrfearless/Today-Plugin-x86",
+            "Convert": [
+                {
+                    "Action": "unpack_file",
+                    "Pattern": "Today-x86-Plugin.zip",
+                    "Src": "Today-readme.txt",
+                    "Path": "docs/Today_x86/APISearch-readme.txt"
+                },
+                {
+                    "Action": "unpack_file",
+                    "Pattern": "Today-x86-Plugin.zip",
+                    "Src": "Today.dp32",
+                    "Path": "x32/plugins/Today.dp32"
+                }
+            ]
+        },
+        {
+            "Author": "mrfearless",
+            "Bugreport": "https://github.com/mrfearless/Today-Plugin-x64/issues",
+            "Info": "An x64 plugin to lists days of interest: national, commemorative, awareness or international observance days.",
+            "Is32": false,
             "Is64": true,
-            "Name": "Today",
-            "SHA1": "da2cd17e5569443a66aba114e36c51e46f860639",
-            "Size": 1061626,
-            "Src": "https://github.com/x64dbg/PluginManager/releases/download/base/Today_1.0.0.X.x64dbg.zip",
-            "Version": "1.0.0.X"
+            "Name": "Today_x64",
+            "Github": "https://github.com/mrfearless/Today-Plugin-x64",
+            "Convert": [
+                {
+                    "Action": "unpack_file",
+                    "Pattern": "Today-x64-Plugin.zip",
+                    "Src": "Today-readme.txt",
+                    "Path": "docs/Today_x64/APISearch-readme.txt"
+                },
+                {
+                    "Action": "unpack_file",
+                    "Pattern": "Today-x64-Plugin.zip",
+                    "Src": "Today.dp64",
+                    "Path": "x64/plugins/Today.dp64"
+                }
+            ]
         },
         {
             "Author": "hors",
