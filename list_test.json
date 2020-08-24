@@ -231,16 +231,23 @@
         {
             "Author": "ThunderCls",
             "Bugreport": "https://github.com/ThunderCls/xHotSpots/issues",
-            "CompressedSize": 88671,
-            "Date": "2020-01-04",
             "Info": "This is the new plugin rewrite based on the deprecated MagicPoints.",
             "Is32": true,
             "Is64": true,
             "Name": "xHotSpots",
-            "SHA1": "1a394f01e5710a2ff3c64f2d9c80313bf2a25371",
-            "Size": 700119,
-            "Src": "https://github.com/x64dbg/PluginManager/releases/download/base/xHotSpots_1.0.0.x64dbg.zip",
-            "Version": "1.0.0"
+            "Github": "https://github.com/ThunderCls/xHotSpots",
+            "Convert": [
+                {
+                    "Action": "copy_file",
+                    "Pattern": "xHotSpots.dp32",
+                    "Path": "x32/plugins/xHotSpots.dp32"
+                },
+                {
+                    "Action": "copy_file",
+                    "Pattern": "xHotSpots.dp64",
+                    "Path": "x64/plugins/xHotSpots.dp64"
+                }
+            ]
         },
         {
             "Author": "ThunderCls",
