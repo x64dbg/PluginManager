@@ -650,7 +650,7 @@
                 {
                     "Action": "unpack_directory",
                     "Pattern": "x64dbg_updater.x64dbg.zip",
-                    "Src": "/",
+                    "Src": "files/",
                     "Path": "/"
                 }
             ]
