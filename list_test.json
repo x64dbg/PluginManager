@@ -415,16 +415,19 @@
         {
             "Author": "hors",
             "Bugreport": "https://github.com/horsicq/nfdx64dbg/issues",
-            "CompressedSize": 943614,
-            "Date": "2020-01-04",
             "Info": "Linker/Compiler/Tool detector.",
             "Is32": true,
             "Is64": true,
             "Name": "nfdx64dbg",
-            "SHA1": "10e115d64daf1d325363dbe725fd24551a7725f8",
-            "Size": 2670225,
-            "Src": "https://github.com/x64dbg/PluginManager/releases/download/base/nfdx64dbg_0.11.x64dbg.zip",
-            "Version": "0.11"
+            "Github": "https://github.com/horsicq/nfdx64dbg",
+            "Convert": [
+                {
+                    "Action": "unpack_directory",
+                    "Pattern": "release.zip",
+                    "Src": "release",
+                    "Path": "/"
+                }
+            ]
         },
         {
             "Author": "mrexodia",
@@ -593,16 +596,19 @@
         {
             "Author": "hors",
             "Bugreport": "https://github.com/horsicq/pex64dbg/issues",
-            "CompressedSize": 459775,
-            "Date": "2020-01-04",
             "Info": "PE Viewer.",
             "Is32": true,
             "Is64": true,
             "Name": "pex64dbg",
-            "SHA1": "7aaf3285f3c977c8a11a062c0c7bdf2fef28fd8b",
-            "Size": 1353870,
-            "Src": "https://github.com/x64dbg/PluginManager/releases/download/base/pex64dbg_0.04.x64dbg.zip",
-            "Version": "0.04"
+            "Github": "https://github.com/horsicq/pex64dbg",
+            "Convert": [
+                {
+                    "Action": "unpack_directory",
+                    "Pattern": "release.zip",
+                    "Src": "release",
+                    "Path": "/"
+                }
+            ]
         },
         {
             "Author": "mrexodia",
