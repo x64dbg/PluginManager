@@ -111,16 +111,25 @@
         {
             "Author": "jdavidberger",
             "Bugreport": "https://github.com/jdavidberger/chaiScriptPlugin/issues",
-            "CompressedSize": 1039486,
-            "Date": "2020-01-04",
             "Info": "Plugin which enables chai scripts to run inside of x64dbg.",
             "Is32": true,
             "Is64": true,
             "Name": "ChaiScript",
-            "SHA1": "49d708c7e2319b4aabaff5b0bc8652a1df246d8f",
-            "Size": 4204792,
-            "Src": "https://github.com/x64dbg/PluginManager/releases/download/base/ChaiScript_0.02.x64dbg.zip",
-            "Version": "0.02"
+            "Github": "https://github.com/jdavidberger/chaiScriptPlugin",
+            "Convert": [
+                {
+                    "Action": "unpack_file",
+                    "Pattern": "chaiScriptPlugin",
+                    "Src": "chaiScriptPlugin.dp32",
+                    "Path": "x32/plugins/chaiScriptPlugin.dp32"
+                },
+                {
+                    "Action": "unpack_file",
+                    "Pattern": "chaiScriptPlugin",
+                    "Src": "chaiScriptPlugin.dp64",
+                    "Path": "x64/plugins/chaiScriptPlugin.dp64"
+                }
+            ]
         },
         {
             "Author": "mrfearless",
@@ -361,16 +370,23 @@
         {
             "Author": "Oguz Kartal",
             "Bugreport": "https://github.com/0ffffffffh/Api-Break-for-x64dbg/issues",
-            "CompressedSize": 88199,
-            "Date": "2020-01-04",
             "Info": "A x64dbg plugin to set breakpoints Win32/64 API calls visually & easly. It has both x86 and x64 bit version.",
             "Is32": true,
             "Is64": true,
             "Name": "x64dbgApiBreak",
-            "SHA1": "b12c9fc8cde7c4bab588eb70e9521db7aae6b2e0",
-            "Size": 174380,
-            "Src": "https://github.com/x64dbg/PluginManager/releases/download/base/x64dbgApiBreak_0.5.39.x64dbg.zip",
-            "Version": "0.5.39"
+            "Github": "https://github.com/0ffffffffh/Api-Break-for-x64dbg",
+            "Convert": [
+                {
+                    "Action": "copy_file",
+                    "Pattern": "x64dbgApiBreak.dp32",
+                    "Path": "x32/plugins/x64dbgApiBreak.dp32"
+                },
+                {
+                    "Action": "copy_file",
+                    "Pattern": "x64dbgApiBreak.dp64",
+                    "Path": "x64/plugins/x64dbgApiBreak.dp64"
+                }
+            ]
         },
         {
             "Author": "pastaCLS",
@@ -649,7 +665,7 @@
                     "Action": "unpack_file",
                     "Pattern": "idenLib.zip",
                     "Src": "idenLib.dp32",
-                    "Path": "bin/x32/plugins/idenLib.dp32"
+                    "Path": "x32/plugins/idenLib.dp32"
                 },
                 {
                     "Action": "unpack_file",
