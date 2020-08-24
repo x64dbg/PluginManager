@@ -252,16 +252,23 @@
         {
             "Author": "ThunderCls",
             "Bugreport": "https://github.com/ThunderCls/xAnalyzer/issues",
-            "CompressedSize": 1773877,
-            "Date": "2020-01-04",
             "Info": "xAnalyzer is capable of calling internal commands of x64dbg to make all kind of analysis and also integrates one of his own.",
             "Is32": true,
             "Is64": true,
             "Name": "xAnalyzer",
-            "SHA1": "3ed2d5ac8cfcf4773ff0989ae43cf8bb9e5ceedf",
-            "Size": 8222059,
-            "Src": "https://github.com/x64dbg/PluginManager/releases/download/base/xAnalyzer_2.5.4.x64dbg.zip",
-            "Version": "2.5.4"
+            "Src": "https://github.com/ThunderCls/xAnalyzer",
+            "Convert": [
+                {
+                    "Action": "copy_file",
+                    "Pattern": "xAnalyzer.dp32",
+                    "Path": "x32/plugins/xAnalyzer.dp32"
+                },
+                {
+                    "Action": "copy_file",
+                    "Pattern": "xAnalyzer.dp64",
+                    "Path": "x64/plugins/xAnalyzer.dp64"
+                }
+            ]
         },
         {
             "Author": "Codecat",
