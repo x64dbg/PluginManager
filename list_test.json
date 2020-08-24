@@ -870,12 +870,12 @@
         },
         {
             "Author": "Oguz Kartal",
-            "Bugreport": "https://github.com/0ffffffffh/yummyPaste",
+            "Bugreport": "https://github.com/0ffffffffh/yummyPaste/issues",
             "Info": "Q plugin to able to paste the various type of formatted binary data into the x64dbg's disassembler or dump section.",
             "Is32": true,
             "Is64": true,
             "Name": "snowman",
-            "Github": "https://github.com/0ffffffffh",
+            "Github": "https://github.com/0ffffffffh/yummyPaste",
             "Convert": [
                 {
                     "Action": "copy_file",
