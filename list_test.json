@@ -259,9 +259,21 @@
             "Github": "https://github.com/ThunderCls/xAnalyzer",
             "Convert": [
                 {
+                    "Action": "unpack_directory",
+                    "Pattern": "apis_def.zip",
+                    "Src": "/",
+                    "Path": "x32/plugins/apis_def"
+                },
+                {
                     "Action": "copy_file",
                     "Pattern": "xAnalyzer.dp32",
                     "Path": "x32/plugins/xAnalyzer.dp32"
+                },
+                {
+                    "Action": "unpack_directory",
+                    "Pattern": "apis_def.zip",
+                    "Src": "/",
+                    "Path": "x64/plugins/apis_def"
                 },
                 {
                     "Action": "copy_file",
