@@ -190,7 +190,7 @@
                     "Action": "unpack_file",
                     "Pattern": "CodeShot-x86-Plugin.zip",
                     "Src": "CodeShot-readme.txt",
-                    "Path": "docs/false/APISearch-readme.txt"
+                    "Path": "docs/CodeShot/APISearch-readme.txt"
                 },
                 {
                     "Action": "unpack_file",
