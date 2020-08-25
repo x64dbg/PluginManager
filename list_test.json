@@ -180,16 +180,25 @@
         {
             "Author": "mrfearless",
             "Bugreport": "https://github.com/mrfearless/CodeShot-Plugin-x86/issues",
-            "CompressedSize": 68145,
-            "Date": "2020-01-04",
             "Info": "A plugin to capture the x64dbg screen to an image file.",
             "Is32": true,
             "Is64": false,
             "Name": "CodeShot",
-            "SHA1": "fa7a0ddbbd266123dcac229b8cbd7f8802fc99d8",
-            "Size": 181714,
-            "Src": "https://github.com/x64dbg/PluginManager/releases/download/base/CodeShot_1.0.0.X.x64dbg.zip",
-            "Version": "1.0.0.X"
+            "Github": "https://github.com/mrfearless/CodeShot-Plugin-x86/",
+            "Convert": [
+                {
+                    "Action": "unpack_file",
+                    "Pattern": "CodeShot-x86-Plugin.zip",
+                    "Src": "CodeShot-readme.txt",
+                    "Path": "docs/false/APISearch-readme.txt"
+                },
+                {
+                    "Action": "unpack_file",
+                    "Pattern": "CodeShot-x86-Plugin.zip",
+                    "Src": "CodeShot.dp32",
+                    "Path": "x32/plugins/CodeShot.dp32"
+                }
+            ]
         },
         {
             "Author": "TheCrazyT",
@@ -415,12 +424,12 @@
             "Author": "pastaCLS",
             "Bugreport": "https://github.com/pastaoficial/cndsteroids/issues",
             "CompressedSize": 50337,
-            "Date": "2020-01-04",
+            "Date": "2017-03-01",
             "Info": "Plugin to compare strings in conditional expressions.",
             "Is32": true,
             "Is64": false,
             "Name": "cndsteroids",
-            "SHA1": "aeb969e5a4e8eb90bed66e7442be1eb5fbba3422",
+            "SHA1": "1537e41b11d181324be6e40f7b73ec70c2598b94",
             "Size": 94773,
             "Src": "https://github.com/x64dbg/PluginManager/releases/download/base/cndsteroids.x64dbg.zip",
             "Version": "1.0"
@@ -623,17 +632,49 @@
         },
         {
             "Author": "mrfearless",
-            "Bugreport": "https://github.com/mrfearless/CopyToAsm-Plugin-x64/issues",
-            "CompressedSize": 77293,
-            "Date": "2020-01-04",
-            "Info": "An x86/x64 plugin to copy a selected disassembly range in the x64dbg cpu view tab and convert to a assembler style code and output to clipboard or the reference view tab.",
+            "Bugreport": "https://github.com/mrfearless/CopyToAsm-Plugin-x86/issues",
+            "Info": "An x86 plugin to copy a selected disassembly range in the x64dbg cpu view tab and convert to a assembler style code and output to clipboard or the reference view tab.",
             "Is32": true,
-            "Is64": true,
-            "Name": "CopyToAsm",
-            "SHA1": "f1eb37cf475eb3bcd7164004510746e56440cb24",
-            "Size": 305222,
-            "Src": "https://github.com/x64dbg/PluginManager/releases/download/base/CopyToAsm_1.0.0.X.x64dbg.zip",
-            "Version": "1.0.0.X"
+            "Is64": false,
+            "Name": "CopyToAsm_x86",
+            "Github": "https://github.com/mrfearless/CopyToAsm-Plugin-x86",
+            "Convert": [
+                {
+                    "Action": "unpack_file",
+                    "Pattern": "CopyToAsm-x86-Plugin.zip",
+                    "Src": "CopyToAsm-readme.txt",
+                    "Path": "docs/CopyToAsm_x86/CopyToAsm-readme.txt"
+                },
+                {
+                    "Action": "unpack_file",
+                    "Pattern": "CopyToAsm-x86-Plugin.zip",
+                    "Src": "CopyToAsm.dp32",
+                    "Path": "x32/plugins/CopyToAsm.dp32"
+                }
+            ]
+        },
+        {
+            "Author": "mrfearless",
+            "Bugreport": "https://github.com/mrfearless/CopyToAsm-Plugin-x64/issues",
+            "Info": "An x64 plugin to copy a selected disassembly range in the x64dbg cpu view tab and convert to a assembler style code and output to clipboard or the reference view tab.",
+            "Is32": true,
+            "Is64": false,
+            "Name": "CopyToAsm_x64",
+            "Github": "https://github.com/mrfearless/CopyToAsm-Plugin-x64",
+            "Convert": [
+                {
+                    "Action": "unpack_file",
+                    "Pattern": "CopyToAsm-x64-Plugin.zip",
+                    "Src": "CopyToAsm-readme.txt",
+                    "Path": "docs/CopyToAsm_x64/CopyToAsm-readme.txt"
+                },
+                {
+                    "Action": "unpack_file",
+                    "Pattern": "CopyToAsm-x64-Plugin.zip",
+                    "Src": "CopyToAsm.dp64",
+                    "Path": "x64/plugins/CopyToAsm.dp64"
+                }
+            ]
         },
         {
             "Author": "mrexodia",
