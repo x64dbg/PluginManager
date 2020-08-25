@@ -342,21 +342,13 @@
             "Github": "https://github.com/codecat/ClawSearch/",
             "Convert": [
                 {
-                    "Action": "unpack_file",
-                    "Pattern": "ClawSearch",
-                    "Src": "Readme.txt",
-                    "Path": "docs/ClawSearch/Readme.txt"
-                },
-                {
-                    "Action": "unpack_file",
-                    "Pattern": "ClawSearch",
-                    "Src": "ClawSearch.dp32",
+                    "Action": "copy_file",
+                    "Pattern": "ClawSearch.dp32",
                     "Path": "x32/plugins/ClawSearch.dp32"
                 },
                 {
-                    "Action": "unpack_file",
-                    "Pattern": "ClawSearch",
-                    "Src": "ClawSearch.dp64",
+                    "Action": "copy_file",
+                    "Pattern": "ClawSearch.dp64",
                     "Path": "x64/plugins/ClawSearch.dp64"
                 }
             ]
