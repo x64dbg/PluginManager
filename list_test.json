@@ -655,16 +655,37 @@
         {
             "Author": "Vicshann",
             "Bugreport": "https://github.com/Vicshann/GhostDbg/issues",
-            "CompressedSize": 174013,
-            "Date": "2020-01-04",
             "Info": "Noninvasive debugging plugin for x64dbg.",
             "Is32": true,
             "Is64": true,
             "Name": "GhostDbg",
-            "SHA1": "8a5a7945b7181229e79659daeb474250135e3d66",
-            "Size": 452344,
-            "Src": "https://github.com/x64dbg/PluginManager/releases/download/base/GhostDbg_1.0.0.x64dbg.zip",
-            "Version": "1.0.0"
+            "Github": "https://github.com/Vicshann/GhostDbg",
+            "Convert": [
+                {
+                    "Action": "unpack_file",
+                    "Pattern": "GhostDbg.zip",
+                    "Src": "GhostDbg.dp32",
+                    "Path": "x32/plugins/GhostDbg.dp32"
+                },
+                {
+                    "Action": "unpack_file",
+                    "Pattern": "GhostDbg.zip",
+                    "Src": "GhostDbg.dp64",
+                    "Path": "x64/plugins/GhostDbg.dp64"
+                },
+                {
+                    "Action": "unpack_file",
+                    "Pattern": "GhostDbg.zip",
+                    "Src": "GInjerDll/x32/injlib.dll",
+                    "Path": "x32/plugins/injlib.dll"
+                },
+                {
+                    "Action": "unpack_file",
+                    "Pattern": "GhostDbg.zip",
+                    "Src": "GInjerDll/x64/injlib.dll",
+                    "Path": "x64/plugins/injlib.dll"
+                }
+            ]
         },
         {
             "Author": "phiDel",
