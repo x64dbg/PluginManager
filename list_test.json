@@ -180,25 +180,16 @@
         {
             "Author": "mrfearless",
             "Bugreport": "https://github.com/mrfearless/CodeShot-Plugin-x86/issues",
+            "CompressedSize": 68145,
+            "Date": "2018-06-17",
             "Info": "A plugin to capture the x64dbg screen to an image file.",
             "Is32": true,
             "Is64": false,
             "Name": "CodeShot",
-            "Github": "https://github.com/mrfearless/CodeShot-Plugin-x86/",
-            "Convert": [
-                {
-                    "Action": "unpack_file",
-                    "Pattern": "CodeShot-x86-Plugin.zip",
-                    "Src": "CodeShot-readme.txt",
-                    "Path": "docs/CodeShot/APISearch-readme.txt"
-                },
-                {
-                    "Action": "unpack_file",
-                    "Pattern": "CodeShot-x86-Plugin.zip",
-                    "Src": "CodeShot.dp32",
-                    "Path": "x32/plugins/CodeShot.dp32"
-                }
-            ]
+            "SHA1": "316643c3cd34338734a46a42aef42fa676ebba82",
+            "Size": 181714,
+            "Src": "https://github.com/x64dbg/PluginManager/releases/download/base/CodeShot_1.0.0.X.x64dbg.zip",
+            "Version": "1.0.0.X"
         },
         {
             "Author": "TheCrazyT",
