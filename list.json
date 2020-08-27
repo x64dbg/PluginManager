@@ -857,7 +857,7 @@
             "Is32": true,
             "Is64": true,
             "Name": "x64dbg_updater",
-            "Github": "hhttps://github.com/LFriede/x64dbg-updater",
+            "Github": "https://github.com/LFriede/x64dbg-updater",
             "Convert": [
                 {
                     "Action": "unpack_directory",
