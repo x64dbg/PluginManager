@@ -615,49 +615,17 @@
         },
         {
             "Author": "mrfearless",
-            "Bugreport": "https://github.com/mrfearless/CopyToAsm-Plugin-x86/issues",
-            "Info": "An x86 plugin to copy a selected disassembly range in the x64dbg cpu view tab and convert to a assembler style code and output to clipboard or the reference view tab.",
-            "Is32": true,
-            "Is64": false,
-            "Name": "CopyToAsm_x86",
-            "Github": "https://github.com/mrfearless/CopyToAsm-Plugin-x86",
-            "Convert": [
-                {
-                    "Action": "unpack_file",
-                    "Pattern": "CopyToAsm-x86-Plugin.zip",
-                    "Src": "CopyToAsm-readme.txt",
-                    "Path": "docs/CopyToAsm_x86/CopyToAsm-readme.txt"
-                },
-                {
-                    "Action": "unpack_file",
-                    "Pattern": "CopyToAsm-x86-Plugin.zip",
-                    "Src": "CopyToAsm.dp32",
-                    "Path": "x32/plugins/CopyToAsm.dp32"
-                }
-            ]
-        },
-        {
-            "Author": "mrfearless",
             "Bugreport": "https://github.com/mrfearless/CopyToAsm-Plugin-x64/issues",
-            "Info": "An x64 plugin to copy a selected disassembly range in the x64dbg cpu view tab and convert to a assembler style code and output to clipboard or the reference view tab.",
-            "Is32": false,
+            "CompressedSize": 77293,
+            "Date": "2018-06-17",
+            "Info": "An x86/x64 plugin to copy a selected disassembly range in the x64dbg cpu view tab and convert to a assembler style code and output to clipboard or the reference view tab.",
+            "Is32": true,
             "Is64": true,
-            "Name": "CopyToAsm_x64",
-            "Github": "https://github.com/mrfearless/CopyToAsm-Plugin-x64",
-            "Convert": [
-                {
-                    "Action": "unpack_file",
-                    "Pattern": "CopyToAsm-x64-Plugin.zip",
-                    "Src": "CopyToAsm-readme.txt",
-                    "Path": "docs/CopyToAsm_x64/CopyToAsm-readme.txt"
-                },
-                {
-                    "Action": "unpack_file",
-                    "Pattern": "CopyToAsm-x64-Plugin.zip",
-                    "Src": "CopyToAsm.dp64",
-                    "Path": "x64/plugins/CopyToAsm.dp64"
-                }
-            ]
+            "Name": "CopyToAsm",
+            "SHA1": "c97fba8f02a3f4e8008d73d2d9035761f7e8b0ed",
+            "Size": 305222,
+            "Src": "https://github.com/x64dbg/PluginManager/releases/download/base/CopyToAsm_1.0.0.X.x64dbg.zip",
+            "Version": "1.0.0.X"
         },
         {
             "Author": "mrexodia",
