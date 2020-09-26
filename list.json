@@ -640,8 +640,8 @@
             "Author": "mrfearless",
             "Bugreport": "https://github.com/mrfearless/CopyToAsm-Plugin-x64/issues",
             "Info": "An x64 plugin to copy a selected disassembly range in the x64dbg cpu view tab and convert to a assembler style code and output to clipboard or the reference view tab.",
-            "Is32": true,
-            "Is64": false,
+            "Is32": false,
+            "Is64": true,
             "Name": "CopyToAsm_x64",
             "Github": "https://github.com/mrfearless/CopyToAsm-Plugin-x64",
             "Convert": [
