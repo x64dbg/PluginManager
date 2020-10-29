@@ -680,20 +680,6 @@
             ]
         },
         {
-            "Author": "phiDel",
-            "Bugreport": "https://github.com/phiDelPark/x64DbgPlugins/issues",
-            "CompressedSize": 58680,
-            "Date": "2020-01-29",
-            "Info": "Show bookmarks, labels, comments in the stack window.",
-            "Is32": true,
-            "Is64": true,
-            "Name": "EasyLabelView",
-            "SHA1": "38e0bbde426404d91815207b63abe68089a2aa94",
-            "Size": 153302,
-            "Src": "https://github.com/x64dbg/PluginManager/releases/download/base/EasyLabelView.x64dbg.zip",
-            "Version": ""
-        },
-        {
             "Author": "Ahmadmansoor",
             "Bugreport": "https://github.com/Ahmadmansoor/AdvancedScript/issues",
             "Info": "Open-source C++/cli, some useful Functions which will help Plugin Coder's, New advanced Log Functions maybe in the future It will be as name it have :).",
