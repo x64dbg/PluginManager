@@ -887,6 +887,39 @@
                     "Path": "x64/plugins/yummyPaste.dp64"
                 }
             ]
+        },
+        {
+            "Author": "morsisko",
+            "Bugreport": "https://github.com/morsisko/xSelectBlock/issues",
+            "CompressedSize": 0,
+            "Convert": [
+                {
+                    "Action": "unpack_file",
+                    "Path": "x32/plugins/xSelectBlock.dp32",
+                    "Pattern": "0.1v.zip",
+                    "Src": "x32/plugins/xSelectBlock.dp32"
+                },
+                {
+                    "Action": "unpack_file",
+                    "Path": "x64/plugins/xSelectBlock.dp64",
+                    "Pattern": "0.1v.zip",
+                    "Src": "x64/plugins/xSelectBlock.dp64"
+                }
+            ],
+            "Date": "2020-10-25",
+            "Download": [
+                {
+                    "Src": "https://github.com/morsisko/xSelectBlock/releases/download/0.1v/0.1v.zip"
+                }
+            ],
+            "Github": "https://github.com/morsisko/xSelectBlock",
+            "Info": "Plugin for x64dbg that allows you to select block of data in dump widget easier",
+            "Is32": true,
+            "Is64": true,
+            "Name": "xSelectBlock",
+            "Size": 0,
+            "Src": "",
+            "Version": "0.1v"
         }
     ]
 }
