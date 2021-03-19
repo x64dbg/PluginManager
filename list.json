@@ -889,6 +889,40 @@
             ]
         },
         {
+            "Author": "AandersonL",
+            "Bugreport": "https://github.com/AandersonL/x64dbg-ASLR-Removal/issues",
+            "CompressedSize": 0,
+            "Convert": [
+                {
+                    "Action": "copy_file",
+                    "Path": "x32/plugins/ASLR_Removal.dp32",
+                    "Pattern": "ASLR_Removal.dp32"
+                },
+                {
+                    "Action": "copy_file",
+                    "Path": "x64/plugins/ASLR_Removal.dp64",
+                    "Pattern": "ASLR_Removal.dp64"
+                }
+            ],
+            "Date": "2020-09-03",
+            "Download": [
+                {
+                    "Src": "https://github.com/AandersonL/x64dbg-ASLR-Removal/releases/download/1.0/ASLR_Removal.dp32"
+                },
+                {
+                    "Src": "https://github.com/AandersonL/x64dbg-ASLR-Removal/releases/download/1.0/ASLR_Removal.dp64"
+                }
+            ],
+            "Github": "https://github.com/AandersonL/x64dbg-ASLR-Removal",
+            "Info": "This plugin remove ASLR from PE files that are being currently debugged in x64dbg by copying and patching the new file.",
+            "Is32": true,
+            "Is64": true,
+            "Name": "ASLR-Removal",
+            "Size": 0,
+            "Src": "",
+            "Version": "1.0"
+        },
+        {
             "Author": "morsisko",
             "Bugreport": "https://github.com/morsisko/xSelectBlock/issues",
             "CompressedSize": 0,
