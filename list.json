@@ -988,6 +988,39 @@
             "Size": 0,
             "Src": "",
             "Version": "1.0"
+        },
+        {
+            "Author": "morsisko",
+            "Bugreport": "https://github.com/morsisko/xFindOut/issues",
+            "CompressedSize": 0,
+            "Convert": [
+                {
+                    "Action": "unpack_file",
+                    "Path": "x32/plugins/xFindOut.dp32",
+                    "Pattern": "xFindOut.zip",
+                    "Src": "xFindOut.dp32"
+                },
+                {
+                    "Action": "unpack_file",
+                    "Path": "x64/plugins/xFindOut.dp64",
+                    "Pattern": "xFindOut.zip",
+                    "Src": "xFindOut.dp64"
+                }
+            ],
+            "Date": "2020-12-12",
+            "Download": [
+                {
+                    "Src": "https://github.com/morsisko/xFindOut/releases/download/1.0.0/xFindOut.zip"
+                }
+            ],
+            "Github": "https://github.com/morsisko/xFindOut",
+            "Info": "A plugin to x64dbg that lets you find out what writes to/accesses particular address. Based on the similar feature available in Cheat Engine.",
+            "Is32": true,
+            "Is64": true,
+            "Name": "xFindOut",
+            "Size": 0,
+            "Src": "",
+            "Version": "1.0.0"
         }
     ]
 }
