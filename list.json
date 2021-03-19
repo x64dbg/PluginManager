@@ -954,6 +954,40 @@
             "Size": 0,
             "Src": "",
             "Version": "0.1v"
+        },
+        {
+            "Author": "jonatan1024",
+            "Bugreport": "https://github.com/jonatan1024/CpuidSpoofer/issues",
+            "CompressedSize": 0,
+            "Convert": [
+                {
+                    "Action": "copy_file",
+                    "Path": "x32/plugins/CpuidSpoofer.dp32",
+                    "Pattern": "CpuidSpoofer.dp32"
+                },
+                {
+                    "Action": "copy_file",
+                    "Path": "x64/plugins/CpuidSpoofer.dp64",
+                    "Pattern": "CpuidSpoofer.dp64"
+                }
+            ],
+            "Date": "2021-03-08",
+            "Download": [
+                {
+                    "Src": "https://github.com/jonatan1024/CpuidSpoofer/releases/download/v1.0/CpuidSpoofer.dp32"
+                },
+                {
+                    "Src": "https://github.com/jonatan1024/CpuidSpoofer/releases/download/v1.0/CpuidSpoofer.dp64"
+                }
+            ],
+            "Github": "https://github.com/jonatan1024/CpuidSpoofer",
+            "Info": "CpuidSpoofer is a x64dbg plugin which helps you to modify the behaviour of the CPUID instruction.",
+            "Is32": true,
+            "Is64": true,
+            "Name": "CpuidSpoofer",
+            "Size": 0,
+            "Src": "",
+            "Version": "1.0"
         }
     ]
 }
