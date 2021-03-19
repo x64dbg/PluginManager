@@ -889,6 +889,73 @@
             ]
         },
         {
+            "Author": "AandersonL",
+            "Bugreport": "https://github.com/AandersonL/x64dbg-ASLR-Removal/issues",
+            "CompressedSize": 0,
+            "Convert": [
+                {
+                    "Action": "copy_file",
+                    "Path": "x32/plugins/ASLR_Removal.dp32",
+                    "Pattern": "ASLR_Removal.dp32"
+                },
+                {
+                    "Action": "copy_file",
+                    "Path": "x64/plugins/ASLR_Removal.dp64",
+                    "Pattern": "ASLR_Removal.dp64"
+                }
+            ],
+            "Date": "2020-09-03",
+            "Download": [
+                {
+                    "Src": "https://github.com/AandersonL/x64dbg-ASLR-Removal/releases/download/1.0/ASLR_Removal.dp32"
+                },
+                {
+                    "Src": "https://github.com/AandersonL/x64dbg-ASLR-Removal/releases/download/1.0/ASLR_Removal.dp64"
+                }
+            ],
+            "Github": "https://github.com/AandersonL/x64dbg-ASLR-Removal",
+            "Info": "This plugin remove ASLR from PE files that are being currently debugged in x64dbg by copying and patching the new file.",
+            "Is32": true,
+            "Is64": true,
+            "Name": "ASLR-Removal",
+            "Size": 0,
+            "Src": "",
+            "Version": "1.0"
+        },
+        {
+            "Author": "morsisko",
+            "Bugreport": "https://github.com/morsisko/xSelectBlock/issues",
+            "CompressedSize": 0,
+            "Convert": [
+                {
+                    "Action": "unpack_file",
+                    "Path": "x32/plugins/xSelectBlock.dp32",
+                    "Pattern": "0.1v.zip",
+                    "Src": "x32/plugins/xSelectBlock.dp32"
+                },
+                {
+                    "Action": "unpack_file",
+                    "Path": "x64/plugins/xSelectBlock.dp64",
+                    "Pattern": "0.1v.zip",
+                    "Src": "x64/plugins/xSelectBlock.dp64"
+                }
+            ],
+            "Date": "2020-10-25",
+            "Download": [
+                {
+                    "Src": "https://github.com/morsisko/xSelectBlock/releases/download/0.1v/0.1v.zip"
+                }
+            ],
+            "Github": "https://github.com/morsisko/xSelectBlock",
+            "Info": "Plugin for x64dbg that allows you to select block of data in dump widget easier",
+            "Is32": true,
+            "Is64": true,
+            "Name": "xSelectBlock",
+            "Size": 0,
+            "Src": "",
+            "Version": "0.1v"
+        },
+        {
             "Author": "jonatan1024",
             "Bugreport": "https://github.com/jonatan1024/CpuidSpoofer/issues",
             "CompressedSize": 0,
