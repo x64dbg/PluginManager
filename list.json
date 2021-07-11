@@ -1022,9 +1022,6 @@
             "Src": "",
             "Version": "1.0.0"
         }
-        
-        
-        
         {
             "Author": "robiot",
             "Bugreport": "https://github.com/robiot/x64dbg-DiscordRPC/issues",
