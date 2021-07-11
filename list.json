@@ -1022,5 +1022,41 @@
             "Src": "",
             "Version": "1.0.0"
         }
+        
+        
+        
+        {
+            "Author": "robiot",
+            "Bugreport": "https://github.com/robiot/x64dbg-DiscordRPC/issues",
+            "CompressedSize": 0,
+            "Convert": [
+                {
+                    "Action": "unpack_file",
+                    "Path": "x64dbgRPC/DiscordRpcx64dbg-32.dp32",
+                    "Pattern": "x64dbgRPC-v1.zip",
+                    "Src": "DiscordRpcx64dbg-32.dp32"
+                },
+                {
+                    "Action": "unpack_file",
+                    "Path": "x64dbgRPC/DiscordRpcx64dbg-64.dp64",
+                    "Pattern": "x64dbgRPC-v1.zip",
+                    "Src": "DiscordRpcx64dbg-64.dp64"
+                }
+            ],
+            "Date": "2021-03-14",
+            "Download": [
+                {
+                    "Src": "https://github.com/robiot/x64dbg-DiscordRPC/releases/download/1/x64dbgRPC-v1.zip"
+                }
+            ],
+            "Github": "https://github.com/robiot/x64dbg-DiscordRPC",
+            "Info": "A quite simple plugin to display when your using x64dbg and what binary you are debugging on discord.",
+            "Is32": true,
+            "Is64": true,
+            "Name": "x64dbg-DiscordRPC",
+            "Size": 0,
+            "Src": "",
+            "Version": "v1"
+        }
     ]
 }
