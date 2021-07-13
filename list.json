@@ -27,30 +27,30 @@
         {
             "Author": "Aguila & cypher",
             "Bugreport": "https://github.com/x64dbg/ScyllaHide/issues",
-            "CompressedSize": 903873,
-            "Date": "2020-08-09",
+            "CompressedSize": 905594,
+            "Date": "2021-01-26",
             "Info": "Open-source user-mode Anti-Anti-Debug plugin.",
             "Is32": true,
             "Is64": true,
             "Name": "ScyllaHide",
-            "SHA1": "deb6a678327084f6fc784794ea27ddaf59a6e6ad",
-            "Size": 1747788,
-            "Src": "https://github.com/x64dbg/PluginManager/releases/download/base/ScyllaHide_2020-08-09.x64dbg.zip",
-            "Version": "2020-08-09"
+            "SHA1": "6086de9201402c7f743bb4db54e49f5d48fefa54",
+            "Size": 1755608,
+            "Src": "https://github.com/x64dbg/PluginManager/releases/download/base/ScyllaHide_2021-01-26.x64dbg.zip",
+            "Version": "2021-01-26"
         },
         {
             "Author": "Nukem",
             "Bugreport": "https://github.com/Nukem9/SwissArmyKnife/issues",
-            "CompressedSize": 695023,
-            "Date": "2019-08-12",
+            "CompressedSize": 694651,
+            "Date": "2020-09-26",
             "Info": "Utility for linker map files, diff files, peid/ida signatures, and code signature generation.",
             "Is32": true,
             "Is64": true,
             "Name": "SwissArmyKnife",
-            "SHA1": "8a901317d71a5c22af6f3bf32222c76d885b9b72",
-            "Size": 1227541,
-            "Src": "https://github.com/x64dbg/PluginManager/releases/download/base/SwissArmyKnife_12-8-2019.x64dbg.zip",
-            "Version": "12-8-2019"
+            "SHA1": "8bedceb3fcc445d15685a3cfd6be9ec2ce34e29f",
+            "Size": 1222933,
+            "Src": "https://github.com/x64dbg/PluginManager/releases/download/base/SwissArmyKnife_9-26-2020.x64dbg.zip",
+            "Version": "9-26-2020"
         },
         {
             "Author": "Insid3Code",
@@ -83,16 +83,16 @@
         {
             "Author": "lowprio20",
             "Bugreport": "http://low-priority.appspot.com/ollymigrate",
-            "CompressedSize": 60885,
-            "Date": "2019-03-14",
+            "CompressedSize": 120066,
+            "Date": "2021-01-11",
             "Info": "This plugin make it possible to pass debuggee to another debugger without restarting (like VM live migration).",
             "Is32": true,
             "Is64": true,
             "Name": "OllyMigrate",
-            "SHA1": "4f041091b73b38d6a81fa98bfdc639ca1399fdf1",
-            "Size": 136103,
-            "Src": "https://github.com/x64dbg/PluginManager/releases/download/base/OllyMigrate_1.06.x64dbg.zip",
-            "Version": "1.06"
+            "SHA1": "2bb489353ff7b9c24a356a513ba5a086c8db2648",
+            "Size": 266248,
+            "Src": "https://github.com/x64dbg/PluginManager/releases/download/base/OllyMigrate_1.08.x64dbg.zip",
+            "Version": "1.08"
         },
         {
             "Author": "lowprio20",
@@ -793,16 +793,16 @@
         {
             "Author": "Xjun",
             "Bugreport": "https://forum.tuts4you.com/topic/39806-sharpod-x64-a_antidebug-plugin-support-for-x64dbg",
-            "CompressedSize": 592500,
-            "Date": "2018-01-04",
+            "CompressedSize": 225319,
+            "Date": "2020-12-02",
             "Info": "A_AntiDebug Plugin.",
             "Is32": true,
             "Is64": true,
             "Name": "SharpOD",
-            "SHA1": "8ffc25439809ade3e8718b04427eab4b775b78c4",
-            "Size": 642766,
-            "Src": "https://github.com/x64dbg/PluginManager/releases/download/base/SharpOD_0.6b.x64dbg.zip",
-            "Version": "0.6b"
+            "SHA1": "c29409203681eeb6b2a5f7cf8044c6fd56acbb55",
+            "Size": 456398,
+            "Src": "https://github.com/x64dbg/PluginManager/releases/download/base/SharpOD_0.6c.x64dbg.zip",
+            "Version": "0.6c"
         },
         {
             "Author": "gORDon_vdLg",
