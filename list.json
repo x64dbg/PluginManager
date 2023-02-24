@@ -1,28 +1,39 @@
 {
-    "Date": "2021-07-01",
+    "Date": "2023-02-24",
     "Modules": [
         {
             "Author": "mrexodia",
             "Bugreport": "https://github.com/x64dbg/x64dbg/issues",
+            "CompressedSize": 0,
+            "Convert": [
+                {
+                    "Action": "unpack_file",
+                    "Path": "commithash.txt",
+                    "Pattern": "snapshot",
+                    "Src": "commithash.txt"
+                },
+                {
+                    "Action": "unpack_directory",
+                    "Path": "/",
+                    "Pattern": "snapshot",
+                    "Src": "release"
+                }
+            ],
+            "Date": "2023-02-24",
+            "Download": [
+                {
+                    "Src": "https://github.com/x64dbg/x64dbg/releases/download/snapshot/snapshot_2023-02-24_04-32.zip"
+                }
+            ],
+            "Github": "https://github.com/x64dbg/x64dbg",
             "Info": "An open-source x64/x32 debugger for windows.",
             "Is32": true,
             "Is64": true,
             "Name": "x64core",
-            "Github": "https://github.com/x64dbg/x64dbg",
-            "Convert": [
-                {
-                    "Action": "unpack_file",
-                    "Pattern": "snapshot",
-                    "Src": "commithash.txt",
-                    "Path": "commithash.txt"
-                },
-                {
-                    "Action": "unpack_directory",
-                    "Pattern": "snapshot",
-                    "Src": "release",
-                    "Path": "/"
-                }
-            ]
+            "Size": 0,
+            "Src": "",
+            "Updated": "2023-02-24 15:13:21",
+            "Version": "snapshot"
         },
         {
             "Author": "Aguila & cypher",
@@ -36,6 +47,7 @@
             "SHA1": "6086de9201402c7f743bb4db54e49f5d48fefa54",
             "Size": 1755608,
             "Src": "https://github.com/x64dbg/PluginManager/releases/download/base/ScyllaHide_2021-01-26.x64dbg.zip",
+            "Updated": "2023-02-24 15:13:21",
             "Version": "2021-01-26"
         },
         {
@@ -50,6 +62,7 @@
             "SHA1": "8bedceb3fcc445d15685a3cfd6be9ec2ce34e29f",
             "Size": 1222933,
             "Src": "https://github.com/x64dbg/PluginManager/releases/download/base/SwissArmyKnife_9-26-2020.x64dbg.zip",
+            "Updated": "2023-02-24 15:13:21",
             "Version": "9-26-2020"
         },
         {
@@ -64,6 +77,7 @@
             "SHA1": "047051f87735c6632afaf93cda363a1014d52fab",
             "Size": 39132,
             "Src": "https://github.com/x64dbg/PluginManager/releases/download/base/Highlightfish.x64dbg.zip",
+            "Updated": "2023-02-24 15:13:21",
             "Version": ""
         },
         {
@@ -78,6 +92,7 @@
             "SHA1": "6fc3845ad281c6f5337fe1be9df153dbf76cc186",
             "Size": 678159,
             "Src": "https://github.com/x64dbg/PluginManager/releases/download/base/multiasm.x64dbg.zip",
+            "Updated": "2023-02-24 15:13:21",
             "Version": ""
         },
         {
@@ -92,6 +107,7 @@
             "SHA1": "2bb489353ff7b9c24a356a513ba5a086c8db2648",
             "Size": 266248,
             "Src": "https://github.com/x64dbg/PluginManager/releases/download/base/OllyMigrate_1.08.x64dbg.zip",
+            "Updated": "2023-02-24 15:13:21",
             "Version": "1.08"
         },
         {
@@ -106,76 +122,110 @@
             "SHA1": "5c6cd6a26b79daf40842bebb00837711ae7c44e3",
             "Size": 267640,
             "Src": "https://github.com/x64dbg/PluginManager/releases/download/base/OllyDumpEx_1.80.x64dbg.zip",
+            "Updated": "2023-02-24 15:13:21",
             "Version": "1.80"
         },
         {
             "Author": "jdavidberger",
             "Bugreport": "https://github.com/jdavidberger/chaiScriptPlugin/issues",
+            "CompressedSize": 0,
+            "Convert": [
+                {
+                    "Action": "unpack_file",
+                    "Path": "x32/plugins/chaiScriptPlugin.dp32",
+                    "Pattern": "chaiScriptPlugin",
+                    "Src": "chaiScriptPlugin.dp32"
+                },
+                {
+                    "Action": "unpack_file",
+                    "Path": "x64/plugins/chaiScriptPlugin.dp64",
+                    "Pattern": "chaiScriptPlugin",
+                    "Src": "chaiScriptPlugin.dp64"
+                }
+            ],
+            "Date": "2016-07-10",
+            "Download": [
+                {
+                    "Src": "https://github.com/jdavidberger/chaiScriptPlugin/releases/download/v0.0.2/chaiScriptPlugin-v0.0.2.zip"
+                }
+            ],
+            "Github": "https://github.com/jdavidberger/chaiScriptPlugin",
             "Info": "Plugin which enables chai scripts to run inside of x64dbg.",
             "Is32": true,
             "Is64": true,
             "Name": "ChaiScript",
-            "Github": "https://github.com/jdavidberger/chaiScriptPlugin",
-            "Convert": [
-                {
-                    "Action": "unpack_file",
-                    "Pattern": "chaiScriptPlugin",
-                    "Src": "chaiScriptPlugin.dp32",
-                    "Path": "x32/plugins/chaiScriptPlugin.dp32"
-                },
-                {
-                    "Action": "unpack_file",
-                    "Pattern": "chaiScriptPlugin",
-                    "Src": "chaiScriptPlugin.dp64",
-                    "Path": "x64/plugins/chaiScriptPlugin.dp64"
-                }
-            ]
+            "Size": 0,
+            "Src": "",
+            "Updated": "2023-02-24 15:13:21",
+            "Version": "v0.0.2"
         },
         {
             "Author": "mrfearless",
             "Bugreport": "https://github.com/mrfearless/APISearch-Plugin-x86/issues",
+            "CompressedSize": 0,
+            "Convert": [
+                {
+                    "Action": "unpack_file",
+                    "Path": "docs/APISearch_x86/APISearch-readme.txt",
+                    "Pattern": "APISearch-x86-Plugin.zip",
+                    "Src": "APISearch-readme.txt"
+                },
+                {
+                    "Action": "unpack_file",
+                    "Path": "x32/plugins/APISearch.dp32",
+                    "Pattern": "APISearch-x86-Plugin.zip",
+                    "Src": "APISearch.dp32"
+                }
+            ],
+            "Date": "2016-07-28",
+            "Download": [
+                {
+                    "Src": "https://github.com/mrfearless/APISearch-Plugin-x86/files/398413/APISearch-x86-Plugin.zip"
+                }
+            ],
+            "Github": "https://github.com/mrfearless/APISearch-Plugin-x86",
             "Info": "A plugin to allow searching for API calls and/or searching online from command bar.",
             "Is32": true,
             "Is64": false,
             "Name": "APISearch_x86",
-            "Github": "https://github.com/mrfearless/APISearch-Plugin-x86",
-            "Convert": [
-                {
-                    "Action": "unpack_file",
-                    "Pattern": "APISearch-x86-Plugin.zip",
-                    "Src": "APISearch-readme.txt",
-                    "Path": "docs/APISearch_x86/APISearch-readme.txt"
-                },
-                {
-                    "Action": "unpack_file",
-                    "Pattern": "APISearch-x86-Plugin.zip",
-                    "Src": "APISearch.dp32",
-                    "Path": "x32/plugins/APISearch.dp32"
-                }
-            ]
+            "Size": 0,
+            "Src": "",
+            "Updated": "2023-02-24 15:13:21",
+            "Version": "1.0.0.X"
         },
         {
             "Author": "mrfearless",
             "Bugreport": "https://github.com/mrfearless/APISearch-Plugin-x64/issues",
+            "CompressedSize": 0,
+            "Convert": [
+                {
+                    "Action": "unpack_file",
+                    "Path": "docs/APISearch_x64/APISearch-readme.txt",
+                    "Pattern": "APISearch-x64-Plugin.zip",
+                    "Src": "APISearch-readme.txt"
+                },
+                {
+                    "Action": "unpack_file",
+                    "Path": "x64/plugins/APISearch.dp64",
+                    "Pattern": "APISearch-x64-Plugin.zip",
+                    "Src": "APISearch.dp64"
+                }
+            ],
+            "Date": "2016-07-28",
+            "Download": [
+                {
+                    "Src": "https://github.com/mrfearless/APISearch-Plugin-x64/files/705220/APISearch-x64-Plugin.zip"
+                }
+            ],
+            "Github": "https://github.com/mrfearless/APISearch-Plugin-x64",
             "Info": "A plugin to allow searching for API calls and/or searching online from command bar.",
             "Is32": false,
             "Is64": true,
             "Name": "APISearch_x64",
-            "Github": "https://github.com/mrfearless/APISearch-Plugin-x64",
-            "Convert": [
-                {
-                    "Action": "unpack_file",
-                    "Pattern": "APISearch-x64-Plugin.zip",
-                    "Src": "APISearch-readme.txt",
-                    "Path": "docs/APISearch_x64/APISearch-readme.txt"
-                },
-                {
-                    "Action": "unpack_file",
-                    "Pattern": "APISearch-x64-Plugin.zip",
-                    "Src": "APISearch.dp64",
-                    "Path": "x64/plugins/APISearch.dp64"
-                }
-            ]
+            "Size": 0,
+            "Src": "",
+            "Updated": "2023-02-24 15:13:21",
+            "Version": "1.0.0.X"
         },
         {
             "Author": "mrfearless",
@@ -189,219 +239,340 @@
             "SHA1": "316643c3cd34338734a46a42aef42fa676ebba82",
             "Size": 181714,
             "Src": "https://github.com/x64dbg/PluginManager/releases/download/base/CodeShot_1.0.0.X.x64dbg.zip",
+            "Updated": "2023-02-24 15:13:21",
             "Version": "1.0.0.X"
         },
         {
             "Author": "TheCrazyT",
             "Bugreport": "https://github.com/TheCrazyT/x64dbg-plugin-quickaccess/issues",
+            "CompressedSize": 0,
+            "Convert": [
+                {
+                    "Action": "copy_file",
+                    "Path": "x64/plugins/quickaccess.dp32",
+                    "Pattern": "quickaccess.dp64"
+                }
+            ],
+            "Date": "2023-02-01",
+            "Download": [
+                {
+                    "Src": "https://github.com/TheCrazyT/x64dbg-plugin-quickaccess/releases/download/1.4.123/quickaccess.dp64"
+                }
+            ],
+            "Github": "https://github.com/TheCrazyT/x64dbg-plugin-quickaccess",
             "Info": "For the lazy people that can't remember all the shortcuts. Just press Ctrl+3 and you can access any menu.",
             "Is32": false,
             "Is64": true,
             "Name": "QuickAccess",
-            "Github": "https://github.com/TheCrazyT/x64dbg-plugin-quickaccess",
-            "Convert": [
-                {
-                    "Action": "copy_file",
-                    "Pattern": "quickaccess.dp64",
-                    "Path": "x64/plugins/quickaccess.dp32"
-                }
-            ]
+            "Size": 0,
+            "Src": "",
+            "Updated": "2023-02-24 15:13:21",
+            "Version": "1.4.123"
         },
         {
             "Author": "ThunderCls",
             "Bugreport": "https://github.com/ThunderCls/xLCB/issues",
+            "CompressedSize": 0,
+            "Convert": [
+                {
+                    "Action": "copy_file",
+                    "Path": "x32/plugins/xLCB.dp32",
+                    "Pattern": "xLCB.dp32"
+                }
+            ],
+            "Date": "2016-10-02",
+            "Download": [
+                {
+                    "Src": "https://github.com/ThunderCls/xLCB/releases/download/1.0/xLCB.dp32"
+                }
+            ],
+            "Github": "https://github.com/ThunderCls/xLCB",
             "Info": "Plugin that mimics the function of the original LCB plugin for OllyDbg by scherzo.",
             "Is32": true,
             "Is64": false,
             "Name": "xLCB",
-            "Github": "https://github.com/ThunderCls/xLCB",
-            "Convert": [
-                {
-                    "Action": "copy_file",
-                    "Pattern": "xLCB.dp32",
-                    "Path": "x32/plugins/xLCB.dp32"
-                }
-            ]
+            "Size": 0,
+            "Src": "",
+            "Updated": "2023-02-24 15:13:21",
+            "Version": "1.0"
         },
         {
             "Author": "brock7",
             "Bugreport": "https://github.com/brock7/xdbg/issues",
+            "CompressedSize": 0,
+            "Convert": [
+                {
+                    "Action": "unpack_file",
+                    "Path": "x32/plugins/xdbgcore.dp32",
+                    "Pattern": "xdbgcore.zip",
+                    "Src": "xdbgcore.dp32"
+                }
+            ],
+            "Date": "2016-04-20",
+            "Download": [
+                {
+                    "Src": "https://github.com/brock7/xdbg/releases/download/v0.3-5/xdbgcore.zip"
+                }
+            ],
+            "Github": "https://github.com/brock7/xdbg",
             "Info": "Open-source user-mode Anti-Anti-Debug plugin for x64dbg & cheatengine.",
             "Is32": true,
             "Is64": false,
             "Name": "xdbg",
-            "Github": "https://github.com/brock7/xdbg",
-            "Convert": [
-                {
-                    "Action": "unpack_file",
-                    "Pattern": "xdbgcore.zip",
-                    "Src": "xdbgcore.dp32",
-                    "Path": "x32/plugins/xdbgcore.dp32"
-                }
-            ]
+            "Size": 0,
+            "Src": "",
+            "Updated": "2023-02-24 15:13:21",
+            "Version": "v0.3-5"
         },
         {
             "Author": "torusrxxx",
             "Bugreport": "https://github.com/torusrxxx/ExtraInfo/issues",
+            "CompressedSize": 0,
+            "Convert": [
+                {
+                    "Action": "unpack_file",
+                    "Path": "docs/ExtraInfo/LICENSE",
+                    "Pattern": "ExtraInfo.zip",
+                    "Src": "LICENSE"
+                },
+                {
+                    "Action": "unpack_file",
+                    "Path": "x32/plugins/ExtraInfo.dp32",
+                    "Pattern": "ExtraInfo.zip",
+                    "Src": "ExtraInfo.dp32"
+                },
+                {
+                    "Action": "unpack_file",
+                    "Path": "x64/plugins/ExtraInfo.dp64",
+                    "Pattern": "ExtraInfo.zip",
+                    "Src": "ExtraInfo.dp64"
+                }
+            ],
+            "Date": "2016-11-20",
+            "Download": [
+                {
+                    "Src": "https://github.com/torusrxxx/ExtraInfo/releases/download/v1.03/ExtraInfo.zip"
+                }
+            ],
+            "Github": "https://github.com/torusrxxx/ExtraInfo",
             "Info": "Show extra information in the info box.",
             "Is32": true,
             "Is64": true,
             "Name": "ExtraInfo",
-            "Github": "https://github.com/torusrxxx/ExtraInfo",
-            "Convert": [
-                {
-                    "Action": "unpack_file",
-                    "Pattern": "ExtraInfo.zip",
-                    "Src": "LICENSE",
-                    "Path": "docs/ExtraInfo/LICENSE"
-                },
-                {
-                    "Action": "unpack_file",
-                    "Pattern": "ExtraInfo.zip",
-                    "Src": "ExtraInfo.dp32",
-                    "Path": "x32/plugins/ExtraInfo.dp32"
-                },
-                {
-                    "Action": "unpack_file",
-                    "Pattern": "ExtraInfo.zip",
-                    "Src": "ExtraInfo.dp64",
-                    "Path": "x64/plugins/ExtraInfo.dp64"
-                }
-            ]
+            "Size": 0,
+            "Src": "",
+            "Updated": "2023-02-24 15:13:21",
+            "Version": "v1.03"
         },
         {
             "Author": "ThunderCls",
             "Bugreport": "https://github.com/ThunderCls/xHotSpots/issues",
+            "CompressedSize": 0,
+            "Convert": [
+                {
+                    "Action": "copy_file",
+                    "Path": "x32/plugins/xHotSpots.dp32",
+                    "Pattern": "xHotSpots.dp32"
+                },
+                {
+                    "Action": "copy_file",
+                    "Path": "x64/plugins/xHotSpots.dp64",
+                    "Pattern": "xHotSpots.dp64"
+                }
+            ],
+            "Date": "2018-01-19",
+            "Download": [
+                {
+                    "Src": "https://github.com/ThunderCls/xHotSpots/releases/download/1.0.0/xHotSpots.dp32"
+                },
+                {
+                    "Src": "https://github.com/ThunderCls/xHotSpots/releases/download/1.0.0/xHotSpots.dp64"
+                }
+            ],
+            "Github": "https://github.com/ThunderCls/xHotSpots",
             "Info": "This is the new plugin rewrite based on the deprecated MagicPoints.",
             "Is32": true,
             "Is64": true,
             "Name": "xHotSpots",
-            "Github": "https://github.com/ThunderCls/xHotSpots",
-            "Convert": [
-                {
-                    "Action": "copy_file",
-                    "Pattern": "xHotSpots.dp32",
-                    "Path": "x32/plugins/xHotSpots.dp32"
-                },
-                {
-                    "Action": "copy_file",
-                    "Pattern": "xHotSpots.dp64",
-                    "Path": "x64/plugins/xHotSpots.dp64"
-                }
-            ]
+            "Size": 0,
+            "Src": "",
+            "Updated": "2023-02-24 15:13:21",
+            "Version": "1.0.0"
         },
         {
             "Author": "ThunderCls",
             "Bugreport": "https://github.com/ThunderCls/xAnalyzer/issues",
+            "CompressedSize": 0,
+            "Convert": [
+                {
+                    "Action": "unpack_directory",
+                    "Path": "x32/plugins/apis_def",
+                    "Pattern": "apis_def.zip",
+                    "Src": "/"
+                },
+                {
+                    "Action": "copy_file",
+                    "Path": "x32/plugins/xAnalyzer.dp32",
+                    "Pattern": "xAnalyzer.dp32"
+                },
+                {
+                    "Action": "unpack_directory",
+                    "Path": "x64/plugins/apis_def",
+                    "Pattern": "apis_def.zip",
+                    "Src": "/"
+                },
+                {
+                    "Action": "copy_file",
+                    "Path": "x64/plugins/xAnalyzer.dp64",
+                    "Pattern": "xAnalyzer.dp64"
+                }
+            ],
+            "Date": "2021-05-26",
+            "Download": [
+                {
+                    "Src": "https://github.com/ThunderCls/xAnalyzer/releases/download/2.5.6/xAnalyzer.dp32"
+                },
+                {
+                    "Src": "https://github.com/ThunderCls/xAnalyzer/releases/download/2.5.6/xAnalyzer.dp64"
+                },
+                {
+                    "Src": "https://github.com/ThunderCls/xAnalyzer/releases/download/2.5.6/apis_def.zip"
+                }
+            ],
+            "Github": "https://github.com/ThunderCls/xAnalyzer",
             "Info": "xAnalyzer is capable of calling internal commands of x64dbg to make all kind of analysis and also integrates one of his own.",
             "Is32": true,
             "Is64": true,
             "Name": "xAnalyzer",
-            "Github": "https://github.com/ThunderCls/xAnalyzer",
-            "Convert": [
-                {
-                    "Action": "unpack_directory",
-                    "Pattern": "apis_def.zip",
-                    "Src": "/",
-                    "Path": "x32/plugins/apis_def"
-                },
-                {
-                    "Action": "copy_file",
-                    "Pattern": "xAnalyzer.dp32",
-                    "Path": "x32/plugins/xAnalyzer.dp32"
-                },
-                {
-                    "Action": "unpack_directory",
-                    "Pattern": "apis_def.zip",
-                    "Src": "/",
-                    "Path": "x64/plugins/apis_def"
-                },
-                {
-                    "Action": "copy_file",
-                    "Pattern": "xAnalyzer.dp64",
-                    "Path": "x64/plugins/xAnalyzer.dp64"
-                }
-            ]
+            "Size": 0,
+            "Src": "",
+            "Updated": "2023-02-24 15:13:21",
+            "Version": "2.5.6"
         },
         {
             "Author": "Codecat",
             "Bugreport": "https://github.com/codecat/ClawSearch/issues",
+            "CompressedSize": 0,
+            "Convert": [
+                {
+                    "Action": "copy_file",
+                    "Path": "x32/plugins/ClawSearch.dp32",
+                    "Pattern": "ClawSearch.dp32"
+                },
+                {
+                    "Action": "copy_file",
+                    "Path": "x64/plugins/ClawSearch.dp64",
+                    "Pattern": "ClawSearch.dp64"
+                }
+            ],
+            "Date": "2022-10-08",
+            "Github": "https://github.com/codecat/ClawSearch/",
             "Info": "A memory scanner plugin for x64dbg, inspired by Cheat Engine.",
             "Is32": true,
             "Is64": true,
             "Name": "ClawSearch",
-            "Github": "https://github.com/codecat/ClawSearch/",
-            "Convert": [
-                {
-                    "Action": "copy_file",
-                    "Pattern": "ClawSearch.dp32",
-                    "Path": "x32/plugins/ClawSearch.dp32"
-                },
-                {
-                    "Action": "copy_file",
-                    "Pattern": "ClawSearch.dp64",
-                    "Path": "x64/plugins/ClawSearch.dp64"
-                }
-            ]
+            "Size": 0,
+            "Src": "",
+            "Updated": "2023-02-24 15:13:21",
+            "Version": "2022-10-08"
         },
         {
             "Author": "changeofpace",
             "Bugreport": "https://github.com/changeofpace/PE-Header-Dump-Utilities/issues",
+            "CompressedSize": 0,
+            "Convert": [
+                {
+                    "Action": "copy_file",
+                    "Path": "x32/plugins/PEHeaderDumpUtilities.dp32",
+                    "Pattern": "PEHeaderDumpUtilities.dp32"
+                },
+                {
+                    "Action": "copy_file",
+                    "Path": "x64/plugins/PEHeaderDumpUtilities.dp64",
+                    "Pattern": "PEHeaderDumpUtilities.dp64"
+                }
+            ],
+            "Date": "2017-02-03",
+            "Download": [
+                {
+                    "Src": "https://github.com/changeofpace/PE-Header-Dump-Utilities/releases/download/v1.0/PEHeaderDumpUtilities.dp32"
+                },
+                {
+                    "Src": "https://github.com/changeofpace/PE-Header-Dump-Utilities/releases/download/v1.0/PEHeaderDumpUtilities.dp64"
+                }
+            ],
+            "Github": "https://github.com/changeofpace/PE-Header-Dump-Utilities",
             "Info": "Adds several commands to x64dbg for dumping PE header information by address.",
             "Is32": true,
             "Is64": true,
             "Name": "PEHeaderDumpUtilities",
-            "Github": "https://github.com/changeofpace/PE-Header-Dump-Utilities",
-            "Convert": [
-                {
-                    "Action": "copy_file",
-                    "Pattern": "PEHeaderDumpUtilities.dp32",
-                    "Path": "x32/plugins/PEHeaderDumpUtilities.dp32"
-                },
-                {
-                    "Action": "copy_file",
-                    "Pattern": "PEHeaderDumpUtilities.dp64",
-                    "Path": "x64/plugins/PEHeaderDumpUtilities.dp64"
-                }
-            ]
+            "Size": 0,
+            "Src": "",
+            "Updated": "2023-02-24 15:13:21",
+            "Version": "v1.0"
         },
         {
             "Author": "torusrxxx",
             "Bugreport": "https://github.com/x64dbg/LabelPEB/issues",
+            "CompressedSize": 0,
+            "Convert": [
+                {
+                    "Action": "unpack_directory",
+                    "Path": "/",
+                    "Pattern": "LabelPEB",
+                    "Src": "/"
+                }
+            ],
+            "Date": "2017-01-06",
+            "Download": [
+                {
+                    "Src": "https://github.com/x64dbg/LabelPEB/releases/download/ac82b1b5/LabelPEB_ac82b1b5.zip"
+                }
+            ],
+            "Github": "https://github.com/x64dbg/LabelPEB",
             "Info": "Add labels for fields in PEB.",
             "Is32": true,
             "Is64": true,
             "Name": "LabelPEB",
-            "Github": "https://github.com/x64dbg/LabelPEB",
-            "Convert": [
-                {
-                    "Action": "unpack_directory",
-                    "Pattern": "LabelPEB",
-                    "Src": "/",
-                    "Path": "/"
-                }
-            ]
+            "Size": 0,
+            "Src": "",
+            "Updated": "2023-02-24 15:13:21",
+            "Version": "ac82b1b5"
         },
         {
             "Author": "Oguz Kartal",
             "Bugreport": "https://github.com/0ffffffffh/Api-Break-for-x64dbg/issues",
+            "CompressedSize": 0,
+            "Convert": [
+                {
+                    "Action": "copy_file",
+                    "Path": "x32/plugins/x64dbgApiBreak.dp32",
+                    "Pattern": "x64dbgApiBreak.dp32"
+                },
+                {
+                    "Action": "copy_file",
+                    "Path": "x64/plugins/x64dbgApiBreak.dp64",
+                    "Pattern": "x64dbgApiBreak.dp64"
+                }
+            ],
+            "Date": "2018-01-16",
+            "Download": [
+                {
+                    "Src": "https://github.com/0ffffffffh/Api-Break-for-x64dbg/releases/download/BETA/x64dbgApiBreak.dp64"
+                },
+                {
+                    "Src": "https://github.com/0ffffffffh/Api-Break-for-x64dbg/releases/download/BETA/x64dbgApiBreak.dp32"
+                }
+            ],
+            "Github": "https://github.com/0ffffffffh/Api-Break-for-x64dbg",
             "Info": "A x64dbg plugin to set breakpoints Win32/64 API calls visually & easly. It has both x86 and x64 bit version.",
             "Is32": true,
             "Is64": true,
             "Name": "x64dbgApiBreak",
-            "Github": "https://github.com/0ffffffffh/Api-Break-for-x64dbg",
-            "Convert": [
-                {
-                    "Action": "copy_file",
-                    "Pattern": "x64dbgApiBreak.dp32",
-                    "Path": "x32/plugins/x64dbgApiBreak.dp32"
-                },
-                {
-                    "Action": "copy_file",
-                    "Pattern": "x64dbgApiBreak.dp64",
-                    "Path": "x64/plugins/x64dbgApiBreak.dp64"
-                }
-            ]
+            "Size": 0,
+            "Src": "",
+            "Updated": "2023-02-24 15:13:21",
+            "Version": "BETA"
         },
         {
             "Author": "pastaCLS",
@@ -415,68 +586,100 @@
             "SHA1": "1537e41b11d181324be6e40f7b73ec70c2598b94",
             "Size": 94773,
             "Src": "https://github.com/x64dbg/PluginManager/releases/download/base/cndsteroids.x64dbg.zip",
+            "Updated": "2023-02-24 15:13:21",
             "Version": "1.0"
         },
         {
             "Author": "changeofpace",
             "Bugreport": "https://github.com/changeofpace/Force-Page-Protection/issues",
+            "CompressedSize": 0,
+            "Convert": [
+                {
+                    "Action": "copy_file",
+                    "Path": "x32/plugins/ForcePageProtection.dp32",
+                    "Pattern": "ForcePageProtection.dp32"
+                },
+                {
+                    "Action": "copy_file",
+                    "Path": "x64/plugins/ForcePageProtection.dp64",
+                    "Pattern": "ForcePageProtection.dp64"
+                }
+            ],
+            "Date": "2017-03-17",
+            "Download": [
+                {
+                    "Src": "https://github.com/changeofpace/Force-Page-Protection/releases/download/v1.1/ForcePageProtection.dp64"
+                },
+                {
+                    "Src": "https://github.com/changeofpace/Force-Page-Protection/releases/download/v1.1/ForcePageProtection.dp32"
+                }
+            ],
+            "Github": "https://github.com/changeofpace/Force-Page-Protection",
             "Info": "This plugin sets the page protection for memory mapped views in scenarios which cause NtProtectVirtualMemory to fail.",
             "Is32": true,
             "Is64": true,
             "Name": "ForcePageProtection",
-            "Github": "https://github.com/changeofpace/Force-Page-Protection",
-            "Convert": [
-                {
-                    "Action": "copy_file",
-                    "Pattern": "ForcePageProtection.dp32",
-                    "Path": "x32/plugins/ForcePageProtection.dp32"
-                },
-                {
-                    "Action": "copy_file",
-                    "Pattern": "ForcePageProtection.dp64",
-                    "Path": "x64/plugins/ForcePageProtection.dp64"
-                }
-            ]
+            "Size": 0,
+            "Src": "",
+            "Updated": "2023-02-24 15:13:21",
+            "Version": "v1.1"
         },
         {
             "Author": "klks",
             "Bugreport": "https://github.com/klks/checksec/issues",
+            "CompressedSize": 0,
+            "Convert": [
+                {
+                    "Action": "copy_file",
+                    "Path": "x32/plugins/checksec.dp32",
+                    "Pattern": "Checksec_v0.1",
+                    "Src": "Checksec_v0.1/checksec.dp32"
+                },
+                {
+                    "Action": "copy_file",
+                    "Path": "x64/plugins/checksec.dp64",
+                    "Pattern": "Checksec_v0.1",
+                    "Src": "Checksec_v0.1/checksec.dp64"
+                }
+            ],
+            "Date": "2017-03-26",
+            "Download": [
+                {
+                    "Src": "https://github.com/klks/checksec/releases/download/20170327/Checksec_v0.1.zip"
+                }
+            ],
+            "Github": "https://github.com/klks/checksec",
             "Info": "Plugin checks modules for security features enabled such as SafeSEH/GS/DEP/ASLR/CFG.",
             "Is32": true,
             "Is64": true,
             "Name": "checksec",
-            "Github": "https://github.com/klks/checksec",
-            "Convert": [
-                {
-                    "Action": "copy_file",
-                    "Pattern": "Checksec_v0.1",
-                    "Src": "Checksec_v0.1/checksec.dp32",
-                    "Path": "x32/plugins/checksec.dp32"
-                },
-                {
-                    "Action": "copy_file",
-                    "Pattern": "Checksec_v0.1",
-                    "Src": "Checksec_v0.1/checksec.dp64",
-                    "Path": "x64/plugins/checksec.dp64"
-                }
-            ]
+            "Size": 0,
+            "Src": "",
+            "Updated": "2023-02-24 15:13:21",
+            "Version": "20170327"
         },
         {
             "Author": "Dreg",
-            "Bugreport": "https://github.com/David-Reguera-Garcia-Dreg/DbgChild/issues",
+            "Bugreport": "https://github.com/therealdreg/DbgChild/issues",
+            "CompressedSize": 0,
+            "Convert": [
+                {
+                    "Action": "unpack_directory",
+                    "Path": "/",
+                    "Pattern": "DbgChild.Beta.10.zip",
+                    "Src": "DbgChild Beta 10/release"
+                }
+            ],
+            "Date": "",
+            "Github": "https://github.com/therealdreg/DbgChild",
             "Info": "This plugin is intended to give the user the option to debug (auto-attach) the child processes created by debugee.",
             "Is32": true,
             "Is64": true,
             "Name": "DbgChild",
-            "Github": "https://github.com/David-Reguera-Garcia-Dreg/DbgChild",
-            "Convert": [
-                {
-                    "Action": "unpack_directory",
-                    "Pattern": "DbgChild.Beta.10.zip",
-                    "Src": "DbgChild Beta 10/release",
-                    "Path": "/"
-                }
-            ]
+            "Size": 0,
+            "Src": "",
+            "Updated": "2023-02-24 13:24:47",
+            "Version": ""
         },
         {
             "Author": "levisre",
@@ -490,114 +693,173 @@
             "SHA1": "0eb946c761f03727d89f2a2008dfbf40e39b763f",
             "Size": 28366,
             "Src": "https://github.com/x64dbg/PluginManager/releases/download/base/TransX64Dbg_1.7.x64dbg.zip",
+            "Updated": "2023-02-24 15:13:21",
             "Version": "1.7"
         },
         {
             "Author": "mrfearless",
             "Bugreport": "https://github.com/mrfearless/Today-Plugin-x86/issues",
+            "CompressedSize": 0,
+            "Convert": [
+                {
+                    "Action": "unpack_file",
+                    "Path": "docs/Today_x86/APISearch-readme.txt",
+                    "Pattern": "Today-x86-Plugin.zip",
+                    "Src": "Today-readme.txt"
+                },
+                {
+                    "Action": "unpack_file",
+                    "Path": "x32/plugins/Today.dp32",
+                    "Pattern": "Today-x86-Plugin.zip",
+                    "Src": "Today.dp32"
+                }
+            ],
+            "Date": "2017-05-01",
+            "Download": [
+                {
+                    "Src": "https://github.com/mrfearless/Today-Plugin-x86/releases/download/1.0.0.X/Today-x86-Plugin.zip"
+                }
+            ],
+            "Github": "https://github.com/mrfearless/Today-Plugin-x86",
             "Info": "An x86 plugin to lists days of interest: national, commemorative, awareness or international observance days.",
             "Is32": true,
             "Is64": false,
             "Name": "Today_x86",
-            "Github": "https://github.com/mrfearless/Today-Plugin-x86",
-            "Convert": [
-                {
-                    "Action": "unpack_file",
-                    "Pattern": "Today-x86-Plugin.zip",
-                    "Src": "Today-readme.txt",
-                    "Path": "docs/Today_x86/APISearch-readme.txt"
-                },
-                {
-                    "Action": "unpack_file",
-                    "Pattern": "Today-x86-Plugin.zip",
-                    "Src": "Today.dp32",
-                    "Path": "x32/plugins/Today.dp32"
-                }
-            ]
+            "Size": 0,
+            "Src": "",
+            "Updated": "2023-02-24 15:13:21",
+            "Version": "1.0.0.X"
         },
         {
             "Author": "mrfearless",
             "Bugreport": "https://github.com/mrfearless/Today-Plugin-x64/issues",
+            "CompressedSize": 0,
+            "Convert": [
+                {
+                    "Action": "unpack_file",
+                    "Path": "docs/Today_x64/APISearch-readme.txt",
+                    "Pattern": "Today-x64-Plugin.zip",
+                    "Src": "Today-readme.txt"
+                },
+                {
+                    "Action": "unpack_file",
+                    "Path": "x64/plugins/Today.dp64",
+                    "Pattern": "Today-x64-Plugin.zip",
+                    "Src": "Today.dp64"
+                }
+            ],
+            "Date": "2017-05-01",
+            "Download": [
+                {
+                    "Src": "https://github.com/mrfearless/Today-Plugin-x64/releases/download/1.0.0.X/Today-x64-Plugin.zip"
+                }
+            ],
+            "Github": "https://github.com/mrfearless/Today-Plugin-x64",
             "Info": "An x64 plugin to lists days of interest: national, commemorative, awareness or international observance days.",
             "Is32": false,
             "Is64": true,
             "Name": "Today_x64",
-            "Github": "https://github.com/mrfearless/Today-Plugin-x64",
-            "Convert": [
-                {
-                    "Action": "unpack_file",
-                    "Pattern": "Today-x64-Plugin.zip",
-                    "Src": "Today-readme.txt",
-                    "Path": "docs/Today_x64/APISearch-readme.txt"
-                },
-                {
-                    "Action": "unpack_file",
-                    "Pattern": "Today-x64-Plugin.zip",
-                    "Src": "Today.dp64",
-                    "Path": "x64/plugins/Today.dp64"
-                }
-            ]
+            "Size": 0,
+            "Src": "",
+            "Updated": "2023-02-24 15:13:21",
+            "Version": "1.0.0.X"
         },
         {
             "Author": "hors",
             "Bugreport": "https://github.com/horsicq/nfdx64dbg/issues",
+            "CompressedSize": 0,
+            "Convert": [
+                {
+                    "Action": "unpack_directory",
+                    "Path": "/",
+                    "Pattern": "release.zip",
+                    "Src": "release"
+                }
+            ],
+            "Date": "2019-12-28",
+            "Download": [
+                {
+                    "Src": "https://github.com/horsicq/nfdx64dbg/releases/download/0.11/release.zip"
+                }
+            ],
+            "Github": "https://github.com/horsicq/nfdx64dbg",
             "Info": "Linker/Compiler/Tool detector.",
             "Is32": true,
             "Is64": true,
             "Name": "nfdx64dbg",
-            "Github": "https://github.com/horsicq/nfdx64dbg",
-            "Convert": [
-                {
-                    "Action": "unpack_directory",
-                    "Pattern": "release.zip",
-                    "Src": "release",
-                    "Path": "/"
-                }
-            ]
+            "Size": 0,
+            "Src": "",
+            "Updated": "2023-02-24 15:13:21",
+            "Version": "0.11"
         },
         {
             "Author": "mrexodia",
             "Bugreport": "https://github.com/x64dbg/strmatch/issues",
+            "CompressedSize": 0,
+            "Convert": [
+                {
+                    "Action": "unpack_file",
+                    "Path": "x32/plugins/strmatch.dp32",
+                    "Pattern": "strmatch.zip",
+                    "Src": "bin/x32/plugins/strmatch.dp32"
+                },
+                {
+                    "Action": "unpack_file",
+                    "Path": "x64/plugins/strmatch.dp64",
+                    "Pattern": "strmatch.zip",
+                    "Src": "bin/x64/plugins/strmatch.dp64"
+                }
+            ],
+            "Date": "2017-06-28",
+            "Download": [
+                {
+                    "Src": "https://github.com/x64dbg/strmatch/releases/download/v0.1/strmatch.zip"
+                }
+            ],
+            "Github": "https://github.com/x64dbg/strmatch",
             "Info": "Simple string matching plugin for x64dbg. Supports UTF8, UTF16 and Local codepages.",
             "Is32": true,
             "Is64": true,
             "Name": "strmatch",
-            "Github": "https://github.com/x64dbg/strmatch",
-            "Convert": [
-                {
-                    "Action": "unpack_file",
-                    "Pattern": "strmatch.zip",
-                    "Src": "bin/x32/plugins/strmatch.dp32",
-                    "Path": "x32/plugins/strmatch.dp32"
-                },
-                {
-                    "Action": "unpack_file",
-                    "Pattern": "strmatch.zip",
-                    "Src": "bin/x64/plugins/strmatch.dp64",
-                    "Path": "x64/plugins/strmatch.dp64"
-                }
-            ]
+            "Size": 0,
+            "Src": "",
+            "Updated": "2023-02-24 15:13:21",
+            "Version": "v0.1"
         },
         {
             "Author": "mrexodia",
             "Bugreport": "https://github.com/mrexodia/YaraGen/issues",
+            "CompressedSize": 0,
+            "Convert": [
+                {
+                    "Action": "copy_file",
+                    "Path": "x32/plugins/YaraGen.dp32",
+                    "Pattern": "YaraGen.dp32"
+                },
+                {
+                    "Action": "copy_file",
+                    "Path": "x64/plugins/YaraGen.dp64",
+                    "Pattern": "YaraGen.dp64"
+                }
+            ],
+            "Date": "2017-09-02",
+            "Download": [
+                {
+                    "Src": "https://github.com/mrexodia/YaraGen/releases/download/v0.1/YaraGen.dp64"
+                },
+                {
+                    "Src": "https://github.com/mrexodia/YaraGen/releases/download/v0.1/YaraGen.dp32"
+                }
+            ],
+            "Github": "https://github.com/mrexodia/YaraGen",
             "Info": "Plugin for x64dbg to generate Yara rules from function basic blocks.",
             "Is32": true,
             "Is64": true,
             "Name": "YaraGen",
-            "Github": "https://github.com/mrexodia/YaraGen",
-            "Convert": [
-                {
-                    "Action": "copy_file",
-                    "Pattern": "YaraGen.dp32",
-                    "Path": "x32/plugins/YaraGen.dp32"
-                },
-                {
-                    "Action": "copy_file",
-                    "Pattern": "YaraGen.dp64",
-                    "Path": "x64/plugins/YaraGen.dp64"
-                }
-            ]
+            "Size": 0,
+            "Src": "",
+            "Updated": "2023-02-24 15:13:21",
+            "Version": "v0.1"
         },
         {
             "Author": "atom0s",
@@ -611,6 +873,7 @@
             "SHA1": "66115234b5095b5a507722c1cadd9e2e72244309",
             "Size": 523974,
             "Src": "https://github.com/x64dbg/PluginManager/releases/download/base/CeAutoAsm.x64dbg.zip",
+            "Updated": "2023-02-24 15:13:21",
             "Version": ""
         },
         {
@@ -625,91 +888,121 @@
             "SHA1": "c97fba8f02a3f4e8008d73d2d9035761f7e8b0ed",
             "Size": 305222,
             "Src": "https://github.com/x64dbg/PluginManager/releases/download/base/CopyToAsm_1.0.0.X.x64dbg.zip",
+            "Updated": "2023-02-24 15:13:21",
             "Version": "1.0.0.X"
         },
         {
             "Author": "mrexodia",
             "Bugreport": "https://github.com/x64dbg/DbGit/issues",
+            "CompressedSize": 0,
+            "Convert": [
+                {
+                    "Action": "unpack_directory",
+                    "Path": "/",
+                    "Pattern": "DbGit",
+                    "Src": "/"
+                }
+            ],
+            "Date": "2018-02-14",
+            "Download": [
+                {
+                    "Src": "https://github.com/x64dbg/DbGit/releases/download/v0.1/DbGit_86828fb1.zip"
+                }
+            ],
+            "Github": "https://github.com/x64dbg/DbGit",
             "Info": "Simple plugin to automatically add x64dbg databases to version control.",
             "Is32": true,
             "Is64": true,
             "Name": "DbGit",
-            "Github": "https://github.com/x64dbg/DbGit",
-            "Convert": [
-                {
-                    "Action": "unpack_directory",
-                    "Pattern": "DbGit",
-                    "Src": "/",
-                    "Path": "/"
-                }
-            ]
+            "Size": 0,
+            "Src": "",
+            "Updated": "2023-02-24 15:13:21",
+            "Version": "v0.1"
         },
         {
             "Author": "Vicshann",
             "Bugreport": "https://github.com/Vicshann/GhostDbg/issues",
+            "CompressedSize": 0,
+            "Convert": [
+                {
+                    "Action": "unpack_file",
+                    "Path": "x32/plugins/GhostDbg.dp32",
+                    "Pattern": "GhostDbg.zip",
+                    "Src": "GhostDbg.dp32"
+                },
+                {
+                    "Action": "unpack_file",
+                    "Path": "x64/plugins/GhostDbg.dp64",
+                    "Pattern": "GhostDbg.zip",
+                    "Src": "GhostDbg.dp64"
+                },
+                {
+                    "Action": "unpack_file",
+                    "Path": "x32/plugins/injlib.dll",
+                    "Pattern": "GhostDbg.zip",
+                    "Src": "GInjerDll/x32/injlib.dll"
+                },
+                {
+                    "Action": "unpack_file",
+                    "Path": "x64/plugins/injlib.dll",
+                    "Pattern": "GhostDbg.zip",
+                    "Src": "GInjerDll/x64/injlib.dll"
+                }
+            ],
+            "Date": "2020-05-02",
+            "Download": [
+                {
+                    "Src": "https://github.com/Vicshann/GhostDbg/releases/download/2.0.0/GhostDbg.zip"
+                }
+            ],
+            "Github": "https://github.com/Vicshann/GhostDbg",
             "Info": "Noninvasive debugging plugin for x64dbg.",
             "Is32": true,
             "Is64": true,
             "Name": "GhostDbg",
-            "Github": "https://github.com/Vicshann/GhostDbg",
-            "Convert": [
-                {
-                    "Action": "unpack_file",
-                    "Pattern": "GhostDbg.zip",
-                    "Src": "GhostDbg.dp32",
-                    "Path": "x32/plugins/GhostDbg.dp32"
-                },
-                {
-                    "Action": "unpack_file",
-                    "Pattern": "GhostDbg.zip",
-                    "Src": "GhostDbg.dp64",
-                    "Path": "x64/plugins/GhostDbg.dp64"
-                },
-                {
-                    "Action": "unpack_file",
-                    "Pattern": "GhostDbg.zip",
-                    "Src": "GInjerDll/x32/injlib.dll",
-                    "Path": "x32/plugins/injlib.dll"
-                },
-                {
-                    "Action": "unpack_file",
-                    "Pattern": "GhostDbg.zip",
-                    "Src": "GInjerDll/x64/injlib.dll",
-                    "Path": "x64/plugins/injlib.dll"
-                }
-            ]
+            "Size": 0,
+            "Src": "",
+            "Updated": "2023-02-24 15:13:21",
+            "Version": "2.0.0"
         },
         {
             "Author": "Ahmadmansoor",
             "Bugreport": "https://github.com/Ahmadmansoor/AdvancedScript/issues",
+            "CompressedSize": 0,
+            "Convert": [
+                {
+                    "Action": "unpack_directory",
+                    "Path": "x32/plugins",
+                    "Pattern": "AdvancedScript",
+                    "Src": "plugins_x32"
+                },
+                {
+                    "Action": "unpack_directory",
+                    "Path": "x64/plugins",
+                    "Pattern": "AdvancedScript",
+                    "Src": "plugins_x64"
+                }
+            ],
+            "Date": "2019-06-26",
+            "Download": [
+                {
+                    "Src": "https://github.com/Ahmadmansoor/AdvancedScript/releases/download/ver4.3/AdvancedScript_4.3.zip"
+                }
+            ],
+            "Github": "https://github.com/Ahmadmansoor/AdvancedScript",
             "Info": "Open-source C++/cli, some useful Functions which will help Plugin Coder's, New advanced Log Functions maybe in the future It will be as name it have :).",
             "Is32": true,
             "Is64": true,
             "Name": "AdvancedScript",
-            "Github": "https://github.com/Ahmadmansoor/AdvancedScript",
-            "Convert": [
-                {
-                    "Action": "unpack_directory",
-                    "Pattern": "AdvancedScript",
-                    "Src": "plugins_x32",
-                    "Path": "x32/plugins"
-                },
-                {
-                    "Action": "unpack_directory",
-                    "Pattern": "AdvancedScript",
-                    "Src": "plugins_x64",
-                    "Path": "x64/plugins"
-                }
-            ]
+            "Size": 0,
+            "Src": "",
+            "Updated": "2023-02-24 15:13:21",
+            "Version": "ver4.3"
         },
         {
             "Author": "Lasha Khasaia, @qaz_qaz",
             "Bugreport": "https://github.com/secrary/idenLib/issues",
-            "Info": "Plugin to identify library functions",
-            "Is32": true,
-            "Is64": false,
-            "Name": "idenLib",
-            "Github": "https://github.com/secrary/idenLib",
+            "CompressedSize": 0,
             "Convert": [
                 {
                     "Action": "make_directory",
@@ -717,78 +1010,135 @@
                 },
                 {
                     "Action": "unpack_file",
+                    "Path": "x32/plugins/idenLib.dp32",
                     "Pattern": "idenLib.zip",
-                    "Src": "idenLib.dp32",
-                    "Path": "x32/plugins/idenLib.dp32"
+                    "Src": "idenLib.dp32"
                 },
                 {
                     "Action": "unpack_file",
+                    "Path": "idenLib.exe",
                     "Pattern": "idenLib.zip",
-                    "Src": "idenLib.exe",
-                    "Path": "idenLib.exe"
+                    "Src": "idenLib.exe"
                 },
                 {
                     "Action": "unpack_file",
+                    "Path": "idenLib.py",
                     "Pattern": "idenLib.zip",
-                    "Src": "idenLib.py",
-                    "Path": "idenLib.py"
+                    "Src": "idenLib.py"
                 }
-            ]
+            ],
+            "Date": "2019-02-25",
+            "Download": [
+                {
+                    "Src": "https://user-images.githubusercontent.com/16405698/53361885-c2261580-3930-11e9-81e1-e8c5057b46a2.png"
+                },
+                {
+                    "Src": "https://user-images.githubusercontent.com/16405698/53361875-b89cad80-3930-11e9-8503-daf444c34eb1.png"
+                },
+                {
+                    "Src": "https://github.com/secrary/idenLib/releases/download/v0.4.2/idenLib.zip"
+                }
+            ],
+            "Github": "https://github.com/secrary/idenLib",
+            "Info": "Plugin to identify library functions",
+            "Is32": true,
+            "Is64": false,
+            "Name": "idenLib",
+            "Size": 0,
+            "Src": "",
+            "Updated": "2023-02-24 15:13:21",
+            "Version": "v0.4.2"
         },
         {
             "Author": "hors",
             "Bugreport": "https://github.com/horsicq/stringsx64dbg/issues",
+            "CompressedSize": 0,
+            "Convert": [
+                {
+                    "Action": "unpack_directory",
+                    "Path": "/",
+                    "Pattern": "release.zip",
+                    "Src": "release"
+                }
+            ],
+            "Date": "2019-12-28",
+            "Download": [
+                {
+                    "Src": "https://github.com/horsicq/stringsx64dbg/releases/download/0.05/release.zip"
+                }
+            ],
+            "Github": "https://github.com/horsicq/stringsx64dbg",
             "Info": "Strings plugin. ANSI and UNICODE. RegEXP support.",
             "Is32": true,
             "Is64": true,
             "Name": "stringsx64dbg",
-            "Github": "https://github.com/horsicq/stringsx64dbg",
-            "Convert": [
-                {
-                    "Action": "unpack_directory",
-                    "Pattern": "release.zip",
-                    "Src": "release",
-                    "Path": "/"
-                }
-            ]
+            "Size": 0,
+            "Src": "",
+            "Updated": "2023-02-24 15:13:21",
+            "Version": "0.05"
         },
         {
             "Author": "hors",
             "Bugreport": "https://github.com/horsicq/pex64dbg/issues",
+            "CompressedSize": 0,
+            "Convert": [
+                {
+                    "Action": "unpack_directory",
+                    "Path": "/",
+                    "Pattern": "release.zip",
+                    "Src": "release"
+                }
+            ],
+            "Date": "2019-12-28",
+            "Download": [
+                {
+                    "Src": "https://github.com/horsicq/pex64dbg/releases/download/0.04/release.zip"
+                }
+            ],
+            "Github": "https://github.com/horsicq/pex64dbg",
             "Info": "PE Viewer.",
             "Is32": true,
             "Is64": true,
             "Name": "pex64dbg",
-            "Github": "https://github.com/horsicq/pex64dbg",
-            "Convert": [
-                {
-                    "Action": "unpack_directory",
-                    "Pattern": "release.zip",
-                    "Src": "release",
-                    "Path": "/"
-                }
-            ]
+            "Size": 0,
+            "Src": "",
+            "Updated": "2023-02-24 15:13:21",
+            "Version": "0.04"
         },
         {
             "Author": "mrexodia",
             "Bugreport": "https://github.com/x64dbg/snowman/issues",
+            "CompressedSize": 0,
+            "Convert": [
+                {
+                    "Action": "copy_file",
+                    "Path": "x32/plugins/snowman.dp32",
+                    "Pattern": "snowman.dp32"
+                },
+                {
+                    "Action": "copy_file",
+                    "Path": "x64/plugins/snowman.dp64",
+                    "Pattern": "snowman.dp64"
+                }
+            ],
+            "Date": "2019-06-22",
+            "Download": [
+                {
+                    "Src": "https://github.com/x64dbg/snowman/releases/download/plugin-v1/snowman.dp64"
+                },
+                {
+                    "Src": "https://github.com/x64dbg/snowman/releases/download/plugin-v1/snowman.dp32"
+                }
+            ],
+            "Github": "https://github.com/x64dbg/snowman",
             "Info": "Snowman decompiler plugin.",
             "Is32": true,
             "Is64": true,
             "Name": "snowman",
-            "Github": "https://github.com/x64dbg/snowman",
-            "Convert": [
-                {
-                    "Action": "copy_file",
-                    "Pattern": "snowman.dp32",
-                    "Path": "x32/plugins/snowman.dp32"
-                },
-                {
-                    "Action": "copy_file",
-                    "Pattern": "snowman.dp64",
-                    "Path": "x64/plugins/snowman.dp64"
-                }
-            ]
+            "Size": 0,
+            "Src": "",
+            "Updated": "2023-02-24 15:13:21",
+            "Version": "plugin-v1"
         },
         {
             "Author": "Xjun",
@@ -802,91 +1152,139 @@
             "SHA1": "c29409203681eeb6b2a5f7cf8044c6fd56acbb55",
             "Size": 456398,
             "Src": "https://github.com/x64dbg/PluginManager/releases/download/base/SharpOD_0.6c.x64dbg.zip",
+            "Updated": "2023-02-24 15:13:21",
             "Version": "0.6c"
         },
         {
             "Author": "gORDon_vdLg",
             "Bugreport": "https://github.com/LFriede/x64dbg-updater/issues",
+            "CompressedSize": 0,
+            "Convert": [
+                {
+                    "Action": "unpack_directory",
+                    "Path": "/",
+                    "Pattern": "x64dbg_updater.x64dbg.zip",
+                    "Src": "files"
+                }
+            ],
+            "Date": "2020-04-12",
+            "Download": [
+                {
+                    "Src": "https://github.com/LFriede/x64dbg-updater/releases/download/0.3/x64dbg_updater.x64dbg.zip"
+                }
+            ],
+            "Github": "https://github.com/LFriede/x64dbg-updater",
             "Info": "Automatic update checks with the plugin manager on x64dbg startup.",
             "Is32": true,
             "Is64": true,
             "Name": "x64dbg_updater",
-            "Github": "https://github.com/LFriede/x64dbg-updater",
-            "Convert": [
-                {
-                    "Action": "unpack_directory",
-                    "Pattern": "x64dbg_updater.x64dbg.zip",
-                    "Src": "files",
-                    "Path": "/"
-                }
-            ]
+            "Size": 0,
+            "Src": "",
+            "Updated": "2023-02-24 15:13:21",
+            "Version": "0.3"
         },
         {
             "Author": "Andy53",
             "Bugreport": "https://github.com/Andy53/ERC.Xdbg/issues",
+            "CompressedSize": 0,
+            "Convert": [
+                {
+                    "Action": "unpack_directory",
+                    "Path": "x64/plugins",
+                    "Pattern": "ERC.Xdbg",
+                    "Src": "/"
+                }
+            ],
+            "Date": "2020-01-02",
+            "Download": [
+                {
+                    "Src": "https://github.com/Andy53/ERC.Xdbg/releases/download/64/ERC.Xdbg_64-2.0.3.zip"
+                }
+            ],
+            "Github": "https://github.com/Andy53/ERC.Xdbg",
             "Info": "An X64dbg Plugin of the ERC Library. ERC is an exploit development framework similar to Mona.py.",
             "Is32": false,
             "Is64": true,
             "Name": "ERCXdbg",
-            "Github": "https://github.com/Andy53/ERC.Xdbg",
-            "Convert": [
-                {
-                    "Action": "unpack_directory",
-                    "Pattern": "ERC.Xdbg",
-                    "Src": "/",
-                    "Path": "x64/plugins"
-                }
-            ]
+            "Size": 0,
+            "Src": "",
+            "Updated": "2023-02-24 15:13:21",
+            "Version": "64"
         },
         {
             "Author": "Nisy/PYG",
             "Bugreport": "https://github.com/sicaril/BaymaxTools/issues",
+            "CompressedSize": 0,
+            "Convert": [
+                {
+                    "Action": "unpack_file",
+                    "Path": "docs/BaymaxtoOls/read me.txt",
+                    "Pattern": "Baymax.toOls.for.x64dbg",
+                    "Src": "read me.txt"
+                },
+                {
+                    "Action": "unpack_directory",
+                    "Path": "x32/plugins",
+                    "Pattern": "Baymax.toOls.for.x64dbg",
+                    "Src": "x32/plugins"
+                },
+                {
+                    "Action": "unpack_directory",
+                    "Path": "x64/plugins",
+                    "Pattern": "Baymax.toOls.for.x64dbg",
+                    "Src": "x64/plugins"
+                }
+            ],
+            "Date": "2022-06-27",
+            "Download": [
+                {
+                    "Src": "https://github.com/sicaril/BaymaxTools/releases/download/v1.7/Baymax.toOls.for.x64dbg.v1.7.zip"
+                }
+            ],
+            "Github": "https://github.com/sicaril/BaymaxTools",
             "Info": "Extract the signature(pattern) of the selected instruction and check the number of times the signature(pattern) appears in the current search module.",
             "Is32": true,
             "Is64": true,
             "Name": "BaymaxtoOls",
-            "Github": "https://github.com/sicaril/BaymaxTools",
-            "Convert": [
-                {
-                    "Action": "unpack_file",
-                    "Pattern": "Baymax.toOls.for.x64dbg",
-                    "Src": "read me.txt",
-                    "Path": "docs/BaymaxtoOls/read me.txt"
-                },
-                {
-                    "Action": "unpack_directory",
-                    "Pattern": "Baymax.toOls.for.x64dbg",
-                    "Src": "x32/plugins",
-                    "Path": "x32/plugins"
-                },
-                {
-                    "Action": "unpack_directory",
-                    "Pattern": "Baymax.toOls.for.x64dbg",
-                    "Src": "x64/plugins",
-                    "Path": "x64/plugins"
-                }
-            ]
+            "Size": 0,
+            "Src": "",
+            "Updated": "2023-02-24 15:13:21",
+            "Version": "v1.7"
         },
         {
             "Author": "Oguz Kartal",
             "Bugreport": "https://github.com/0ffffffffh/yummyPaste/issues",
+            "CompressedSize": 0,
+            "Convert": [
+                {
+                    "Action": "copy_file",
+                    "Path": "x32/plugins/yummyPaste.dp32",
+                    "Pattern": "yummyPaste.dp32"
+                },
+                {
+                    "Action": "copy_file",
+                    "Path": "x64/plugins/yummyPaste.dp64",
+                    "Pattern": "yummyPaste.dp64"
+                }
+            ],
+            "Date": "2020-08-21",
+            "Download": [
+                {
+                    "Src": "https://github.com/0ffffffffh/yummyPaste/releases/download/v1.0/yummyPaste.dp64"
+                },
+                {
+                    "Src": "https://github.com/0ffffffffh/yummyPaste/releases/download/v1.0/yummyPaste.dp32"
+                }
+            ],
+            "Github": "https://github.com/0ffffffffh/yummyPaste",
             "Info": "Q plugin to able to paste the various type of formatted binary data into the x64dbg's disassembler or dump section.",
             "Is32": true,
             "Is64": true,
             "Name": "yummyPaste",
-            "Github": "https://github.com/0ffffffffh/yummyPaste",
-            "Convert": [
-                {
-                    "Action": "copy_file",
-                    "Pattern": "yummyPaste.dp32",
-                    "Path": "x32/plugins/yummyPaste.dp32"
-                },
-                {
-                    "Action": "copy_file",
-                    "Pattern": "yummyPaste.dp64",
-                    "Path": "x64/plugins/yummyPaste.dp64"
-                }
-            ]
+            "Size": 0,
+            "Src": "",
+            "Updated": "2023-02-24 15:13:21",
+            "Version": "v1.0"
         },
         {
             "Author": "AandersonL",
@@ -920,6 +1318,7 @@
             "Name": "ASLR-Removal",
             "Size": 0,
             "Src": "",
+            "Updated": "2023-02-24 15:13:21",
             "Version": "1.0"
         },
         {
@@ -953,6 +1352,7 @@
             "Name": "xSelectBlock",
             "Size": 0,
             "Src": "",
+            "Updated": "2023-02-24 15:13:21",
             "Version": "0.1v"
         },
         {
@@ -971,13 +1371,13 @@
                     "Pattern": "CpuidSpoofer.dp64"
                 }
             ],
-            "Date": "2021-03-08",
+            "Date": "2023-02-19",
             "Download": [
                 {
-                    "Src": "https://github.com/jonatan1024/CpuidSpoofer/releases/download/v1.0/CpuidSpoofer.dp32"
+                    "Src": "https://github.com/jonatan1024/CpuidSpoofer/releases/download/v1.0.1/CpuidSpoofer.dp64"
                 },
                 {
-                    "Src": "https://github.com/jonatan1024/CpuidSpoofer/releases/download/v1.0/CpuidSpoofer.dp64"
+                    "Src": "https://github.com/jonatan1024/CpuidSpoofer/releases/download/v1.0.1/CpuidSpoofer.dp32"
                 }
             ],
             "Github": "https://github.com/jonatan1024/CpuidSpoofer",
@@ -987,7 +1387,8 @@
             "Name": "CpuidSpoofer",
             "Size": 0,
             "Src": "",
-            "Version": "1.0"
+            "Updated": "2023-02-24 15:13:21",
+            "Version": "v1.0.1"
         },
         {
             "Author": "morsisko",
@@ -1020,6 +1421,7 @@
             "Name": "xFindOut",
             "Size": 0,
             "Src": "",
+            "Updated": "2023-02-24 15:13:21",
             "Version": "1.0.0"
         },
         {
@@ -1053,7 +1455,8 @@
             "Name": "x64dbg-DiscordRPC",
             "Size": 0,
             "Src": "",
-            "Version": "v1"
+            "Updated": "2023-02-24 15:13:21",
+            "Version": "1"
         }
     ]
 }
