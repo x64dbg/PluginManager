@@ -38,17 +38,16 @@
         {
             "Author": "Aguila & cypher",
             "Bugreport": "https://github.com/x64dbg/ScyllaHide/issues",
-            "CompressedSize": 905594,
-            "Date": "2021-01-26",
+            "CompressedSize": 903796,
+            "Date": "2021-08-23",
             "Info": "Open-source user-mode Anti-Anti-Debug plugin.",
             "Is32": true,
             "Is64": true,
             "Name": "ScyllaHide",
-            "SHA1": "6086de9201402c7f743bb4db54e49f5d48fefa54",
-            "Size": 1755608,
-            "Src": "https://github.com/x64dbg/PluginManager/releases/download/base/ScyllaHide_2021-01-26.x64dbg.zip",
-            "Updated": "2023-03-01 10:25:45",
-            "Version": "2021-01-26"
+            "SHA1": "70b1a2aafbfb3b77e30af72f60a165cb9319b746",
+            "Size": 1744344,
+            "Src": "https://github.com/x64dbg/PluginManager/releases/download/base/ScyllaHide_2021-08-23.x64dbg.zip",
+            "Version": "2021-08-23"
         },
         {
             "Author": "Nukem",
@@ -98,32 +97,30 @@
         {
             "Author": "lowprio20",
             "Bugreport": "http://low-priority.appspot.com/ollymigrate",
-            "CompressedSize": 120066,
-            "Date": "2021-01-11",
+            "CompressedSize": 52424,
+            "Date": "2022-09-07",
             "Info": "This plugin make it possible to pass debuggee to another debugger without restarting (like VM live migration).",
             "Is32": true,
             "Is64": true,
             "Name": "OllyMigrate",
-            "SHA1": "2bb489353ff7b9c24a356a513ba5a086c8db2648",
-            "Size": 266248,
-            "Src": "https://github.com/x64dbg/PluginManager/releases/download/base/OllyMigrate_1.08.x64dbg.zip",
-            "Updated": "2023-03-01 10:25:45",
-            "Version": "1.08"
+            "SHA1": "50b46c21c7b3015ebf210f852d69c66fba403a7b",
+            "Size": 127774,
+            "Src": "https://github.com/x64dbg/PluginManager/releases/download/base/OllyMigrate_1.10.x64dbg.zip",
+            "Version": "1.10"
         },
         {
             "Author": "lowprio20",
             "Bugreport": "http://low-priority.appspot.com/ollydumpex",
-            "CompressedSize": 125147,
-            "Date": "2020-01-06",
+            "CompressedSize": 119038,
+            "Date": "2022-09-07",
             "Info": "Process memory dumper for x64dbg, OllyDbg and Immunity Debugger.",
             "Is32": true,
             "Is64": true,
             "Name": "OllyDumpEx",
-            "SHA1": "5c6cd6a26b79daf40842bebb00837711ae7c44e3",
-            "Size": 267640,
-            "Src": "https://github.com/x64dbg/PluginManager/releases/download/base/OllyDumpEx_1.80.x64dbg.zip",
-            "Updated": "2023-03-01 10:25:45",
-            "Version": "1.80"
+            "SHA1": "2a8abac539081101f7058e6654b091553cefc290",
+            "Size": 266784,
+            "Src": "https://github.com/x64dbg/PluginManager/releases/download/base/OllyDumpEx_1.82.x64dbg.zip",
+            "Version": "1.82"
         },
         {
             "Author": "jdavidberger",
