@@ -38,16 +38,66 @@
         {
             "Author": "Aguila & cypher",
             "Bugreport": "https://github.com/x64dbg/ScyllaHide/issues",
-            "CompressedSize": 903796,
-            "Date": "2021-08-23",
+            "CompressedSize": 0,
+            "Convert": [
+                {
+                    "Action": "unpack_file",
+                    "Path": "docs/ScyllaHide/ScyllaHide.pdf",
+                    "Pattern": "ScyllaHide",
+                    "Src": "ScyllaHide.pdf"
+                },
+                {
+                    "Action": "unpack_file",
+                    "Path": "x32/plugins/HookLibraryx86.dll",
+                    "Pattern": "ScyllaHide",
+                    "Src": "x32/plugins/HookLibraryx86.dll"
+                },
+                {
+                    "Action": "unpack_file",
+                    "Path": "x32/plugins/scylla_hide.ini",
+                    "Pattern": "ScyllaHide",
+                    "Src": "x32/plugins/scylla_hide.ini"
+                },
+                {
+                    "Action": "unpack_file",
+                    "Path": "x32/plugins/ScyllaHideX64DBGPlugin.dp32",
+                    "Pattern": "ScyllaHide",
+                    "Src": "x32/plugins/ScyllaHideX64DBGPlugin.dp32"
+                },
+                {
+                    "Action": "unpack_file",
+                    "Path": "x64/plugins/HookLibraryx64.dll",
+                    "Pattern": "ScyllaHide",
+                    "Src": "x64/plugins/HookLibraryx64.dll"
+                },
+                {
+                    "Action": "unpack_file",
+                    "Path": "x64/plugins/scylla_hide.ini",
+                    "Pattern": "ScyllaHide",
+                    "Src": "x64/plugins/scylla_hide.ini"
+                },
+                {
+                    "Action": "unpack_file",
+                    "Path": "x64/plugins/ScyllaHideX64DBGPlugin.dp64",
+                    "Pattern": "ScyllaHide",
+                    "Src": "x64/plugins/ScyllaHideX64DBGPlugin.dp64"
+                }
+            ],
+            "Date": "2023-03-24",
+            "Download": [
+                {
+                    "Src": "https://github.com/x64dbg/ScyllaHide/releases/download/v1.4/ScyllaHide_2023-03-24_13-03.zip"
+                }
+            ],
+            "Github": "https://github.com/x64dbg/ScyllaHide",
             "Info": "Open-source user-mode Anti-Anti-Debug plugin.",
             "Is32": true,
             "Is64": true,
             "Name": "ScyllaHide",
-            "SHA1": "70b1a2aafbfb3b77e30af72f60a165cb9319b746",
-            "Size": 1744344,
-            "Src": "https://github.com/x64dbg/PluginManager/releases/download/base/ScyllaHide_2021-08-23.x64dbg.zip",
-            "Version": "2021-08-23"
+            "Size": 0,
+            "Src": "",
+            "Updated": "2023-03-30 10:25:45",
+            "Version": "v1.4"
         },
         {
             "Author": "Nukem",
