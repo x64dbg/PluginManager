@@ -50,37 +50,37 @@
                     "Action": "unpack_file",
                     "Path": "x32/plugins/HookLibraryx86.dll",
                     "Pattern": "ScyllaHide",
-                    "Src": "x32/plugins/HookLibraryx86.dll"
+                    "Src": "x64dbg/x32/plugins/HookLibraryx86.dll"
                 },
                 {
                     "Action": "unpack_file",
                     "Path": "x32/plugins/scylla_hide.ini",
                     "Pattern": "ScyllaHide",
-                    "Src": "x32/plugins/scylla_hide.ini"
+                    "Src": "x64dbg/x32/plugins/scylla_hide.ini"
                 },
                 {
                     "Action": "unpack_file",
                     "Path": "x32/plugins/ScyllaHideX64DBGPlugin.dp32",
                     "Pattern": "ScyllaHide",
-                    "Src": "x32/plugins/ScyllaHideX64DBGPlugin.dp32"
+                    "Src": "x64dbg/x32/plugins/ScyllaHideX64DBGPlugin.dp32"
                 },
                 {
                     "Action": "unpack_file",
                     "Path": "x64/plugins/HookLibraryx64.dll",
                     "Pattern": "ScyllaHide",
-                    "Src": "x64/plugins/HookLibraryx64.dll"
+                    "Src": "x64dbg/x64/plugins/HookLibraryx64.dll"
                 },
                 {
                     "Action": "unpack_file",
                     "Path": "x64/plugins/scylla_hide.ini",
                     "Pattern": "ScyllaHide",
-                    "Src": "x64/plugins/scylla_hide.ini"
+                    "Src": "x64dbg/x64/plugins/scylla_hide.ini"
                 },
                 {
                     "Action": "unpack_file",
                     "Path": "x64/plugins/ScyllaHideX64DBGPlugin.dp64",
                     "Pattern": "ScyllaHide",
-                    "Src": "x64/plugins/ScyllaHideX64DBGPlugin.dp64"
+                    "Src": "x64dbg/x64/plugins/ScyllaHideX64DBGPlugin.dp64"
                 }
             ],
             "Date": "2023-03-24",
