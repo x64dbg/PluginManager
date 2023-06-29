@@ -527,7 +527,7 @@
             "Name": "ClawSearch",
             "SHA1": "2d84dc1cace1095ec3657b6815fd8063b077fbc0",
             "Size": 823,
-            "Src": "ClawSearch.x64dbg.zip",
+            "Src": "",
             "Updated": "2023-03-01 10:25:45",
             "Version": "2022-10-08"
         },
@@ -1831,6 +1831,41 @@
             "Src": "x64dbgpy3.x64dbg.zip",
             "Updated": "2023-03-01 11:18:29",
             "Version": "v0.1"
+        },
+        {
+            "Author": "Internet2.0",
+            "Bugreport": "https://github.com/Internet-2-0/Malcore-x64dbg/issues",
+            "CompressedSize": 343,
+            "Convert": [
+                {
+                    "Action": "unpack_file",
+                    "Path": "x32/plugins/Malcore.dp32",
+                    "Pattern": "Malcore-x64dbg-v1.0.zip",
+                    "Src": "x32/plugins/Malcore.dp32"
+                },
+                {
+                    "Action": "unpack_file",
+                    "Path": "x64/plugins/Malcore.dp64",
+                    "Pattern": "Malcore-x64dbg-v1.0.zip",
+                    "Src": "x64/plugins/Malcore.dp64"
+                }
+            ],
+            "Date": "2023-06-29",
+            "Download": [
+                {
+                    "Src": "https://github.com/Internet-2-0/Malcore-x64dbg/releases/download/v1.0/Malcore-x64dbg-v1.0.zip"
+                }
+            ],
+            "Github": "https://github.com/Internet-2-0/Malcore-x64dbg",
+            "Info": "Automatically analyze your malware samples and display a report.",
+            "Is32": true,
+            "Is64": true,
+            "Name": "Malcore",
+            "SHA1": "A87631E2CC92D1BA817C43BE62D3F1861C536F21",
+            "Size": 550564,
+            "Src": "",
+            "Updated": "2023-06-29 19:31:43",
+            "Version": "v1.0"
         }
     ]
 }
