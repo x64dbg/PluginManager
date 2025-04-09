@@ -1870,16 +1870,36 @@
         {
             "Author": "colinsenner",
             "Bugreport": "https://github.com/colinsenner/rtti-plugin-x64dbg/issues",
-            "CompressedSize": 176217,
-            "Date": "2024-06-28",
+            "CompressedSize": 0,
+            "Convert": [
+                {
+                    "Action": "unpack_file",
+                    "Path": "x32/plugins/Rtti.dp32",
+                    "Pattern": "rtti-plugin-x64dbg",
+                    "Src": "Rtti.dp32"
+                },
+                {
+                    "Action": "unpack_file",
+                    "Path": "x64/plugins/Rtti.dp64",
+                    "Pattern": "rtti-plugin-x64dbg",
+                    "Src": "Rtti.dp64"
+                }
+            ],
+            "Date": "2025-04-08",
+            "Download": [
+                {
+                    "Src": "https://github.com/colinsenner/rtti-plugin-x64dbg/releases/download/1.0.2/rtti-plugin-x64dbg-1.0.2.zip"
+                }
+            ],
+            "Github": "https://github.com/colinsenner/rtti-plugin-x64dbg",
             "Info": "Displays detailed run-time type information if available by selecting an object address in the memory dump.",
             "Is32": true,
             "Is64": true,
             "Name": "RTTI-Info",
-            "SHA1": "ccbd9b944e3c8948e34eab20cf7fe7ef29eb5b81",
-            "Size": 332042,
-            "Src": "https://github.com/Doliman100/rtti-plugin-x64dbg/releases/download/1.0.1/RTTI-Info_1.0.1.x64dbg.zip",
-            "Version": "1.0.1"
+            "Size": 0,
+            "Src": "",
+            "Updated": "2025-04-09 18:38:02",
+            "Version": "1.0.2"
         }
     ]
 }
