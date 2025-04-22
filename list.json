@@ -1873,22 +1873,20 @@
             "CompressedSize": 0,
             "Convert": [
                 {
-                    "Action": "unpack_file",
+                    "Action": "copy_file",
                     "Path": "x32/plugins/Rtti.dp32",
-                    "Pattern": "rtti-plugin-x64dbg",
-                    "Src": "Rtti.dp32"
+                    "Pattern": "rtti-plugin-x64dbg"
                 },
                 {
-                    "Action": "unpack_file",
+                    "Action": "copy_file",
                     "Path": "x64/plugins/Rtti.dp64",
-                    "Pattern": "rtti-plugin-x64dbg",
-                    "Src": "Rtti.dp64"
+                    "Pattern": "rtti-plugin-x64dbg"
                 }
             ],
-            "Date": "2025-04-08",
+            "Date": "2025-04-12",
             "Download": [
                 {
-                    "Src": "https://github.com/colinsenner/rtti-plugin-x64dbg/releases/download/1.0.2/rtti-plugin-x64dbg-1.0.2.zip"
+                    "Src": "https://github.com/colinsenner/rtti-plugin-x64dbg/releases/download/v1.0.5/rtti-plugin-x64dbg_2025-04-12_04-04.zip"
                 }
             ],
             "Github": "https://github.com/colinsenner/rtti-plugin-x64dbg",
@@ -1898,8 +1896,8 @@
             "Name": "RTTI-Info",
             "Size": 0,
             "Src": "",
-            "Updated": "2025-04-09 18:38:02",
-            "Version": "1.0.2"
+            "Updated": "2025-04-22 18:39:51",
+            "Version": "v1.0.5"
         }
     ]
 }
