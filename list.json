@@ -1225,14 +1225,14 @@
                 {
                     "Action": "unpack_directory",
                     "Path": "/",
-                    "Pattern": "x64dbg_updater.x64dbg.zip",
-                    "Src": "files"
+                    "Pattern": "x64dbg-updater-bin",
+                    "Src": "/"
                 }
             ],
-            "Date": "2020-04-12",
+            "Date": "2025-07-05",
             "Download": [
                 {
-                    "Src": "https://github.com/LFriede/x64dbg-updater/releases/download/0.3/x64dbg_updater.x64dbg.zip"
+                    "Src": "https://github.com/LFriede/x64dbg-updater/releases/download/v0.4/x64dbg-updater-bin-0.4.zip"
                 }
             ],
             "Github": "https://github.com/LFriede/x64dbg-updater",
@@ -1242,8 +1242,8 @@
             "Name": "x64dbg_updater",
             "Size": 0,
             "Src": "",
-            "Updated": "2023-03-01 10:25:45",
-            "Version": "0.3"
+            "Updated": "2025-07-06 15:38:51",
+            "Version": "v0.4"
         },
         {
             "Author": "Andy53",
