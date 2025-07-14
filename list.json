@@ -1898,6 +1898,34 @@
             "Src": "",
             "Updated": "2025-04-22 18:39:51",
             "Version": "v1.0.5"
+        },
+        {
+            "Author": "ZehMatt",
+            "Bugreport": "https://github.com/x64dbg/DotX64Dbg/issues",
+            "CompressedSize": 0,
+            "Convert": [
+              {
+                  "Action": "unpack_directory",
+                  "Path": "/",
+                  "Pattern": "DotX64Dbg",
+                  "Src": "/"
+              }
+            ],
+            "Date": "2024-03-17",
+            "Download": [
+                {
+                    "Src": "https://github.com/x64dbg/DotX64Dbg/releases/download/v0.0.4/DotX64Dbg-v0.0.4.zip"
+                }
+            ],
+            "Github": "https://github.com/x64dbg/DotX64Dbg",
+            "Info": "Plugin that enables C# plugins with hot-loading support and scripting.",
+            "Is32": true,
+            "Is64": true,
+            "Name": "DotX64Dbg",
+            "Size": 0,
+            "Src": "",
+            "Updated": "2025-07-14 19:51:00",
+            "Version": "v0.0.4"
         }
     ]
 }
