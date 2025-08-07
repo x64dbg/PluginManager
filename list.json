@@ -685,13 +685,13 @@
             "CompressedSize": 228685,
             "Convert": [
                 {
-                    "Action": "copy_file",
+                    "Action": "unpack_file",
                     "Path": "x32/plugins/checksec.dp32",
                     "Pattern": "Checksec_v0.1",
                     "Src": "Checksec_v0.1/checksec.dp32"
                 },
                 {
-                    "Action": "copy_file",
+                    "Action": "unpack_file",
                     "Path": "x64/plugins/checksec.dp64",
                     "Pattern": "Checksec_v0.1",
                     "Src": "Checksec_v0.1/checksec.dp64"
@@ -1873,14 +1873,16 @@
             "CompressedSize": 0,
             "Convert": [
                 {
-                    "Action": "copy_file",
+                    "Action": "unpack_file",
                     "Path": "x32/plugins/Rtti.dp32",
-                    "Pattern": "rtti-plugin-x64dbg"
+                    "Pattern": "rtti-plugin-x64dbg",
+                    "Src": "x32/plugins/Rtti.dp32"
                 },
                 {
-                    "Action": "copy_file",
+                    "Action": "unpack_file",
                     "Path": "x64/plugins/Rtti.dp64",
-                    "Pattern": "rtti-plugin-x64dbg"
+                    "Pattern": "rtti-plugin-x64dbg",
+                    "Src": "x64/plugins/Rtti.dp64"
                 }
             ],
             "Date": "2025-04-12",
