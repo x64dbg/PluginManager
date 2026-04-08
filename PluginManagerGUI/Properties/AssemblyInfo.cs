@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("PluginManagerGUI")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Plugin manager plugin for x64dbg")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("x64dbg")]
 [assembly: AssemblyProduct("PluginManagerGUI")]
-[assembly: AssemblyCopyright("Copyright ©  2017")]
+[assembly: AssemblyCopyright("Copyright © 2017-2026 x64dbg")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
